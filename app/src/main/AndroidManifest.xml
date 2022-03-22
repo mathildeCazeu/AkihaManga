@@ -18,8 +18,12 @@
         <activity
             android:name=".pageFavori"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".geolocalisation"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
