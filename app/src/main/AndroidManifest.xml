@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AkihaManga">
         <activity
-            android:name=".MainActivity"
+            android:name=".detailsVolume"
             android:exported="false" />
         <activity
             android:name=".pageInformation"
@@ -22,7 +22,7 @@
             android:name=".pageFavori"
             android:exported="false" />
         <activity
-            android:name=".detailsVolume"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
