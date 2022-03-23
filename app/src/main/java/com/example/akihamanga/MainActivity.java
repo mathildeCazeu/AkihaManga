@@ -24,5 +24,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openConnexion()
-    {}
+    {
+        dialogueBoutonConnexion dialogue = new dialogueBoutonConnexion();
+        dialogue.show(getSupportFragmentManager(), "");
+    }
 }
