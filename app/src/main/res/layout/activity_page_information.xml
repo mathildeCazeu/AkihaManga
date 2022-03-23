@@ -16,23 +16,21 @@
 
         <ImageView
             android:id="@+id/mv_logo"
-            android:layout_width="93dp"
+            android:layout_width="60dp"
             android:layout_height="match_parent"
-            android:layout_weight="3"
             app:srcCompat="@drawable/logo" />
 
         <Space
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="9" />
-
-        <SearchView
-            android:id="@+id/sv_recherche"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="1" />
 
-        </SearchView>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            app:srcCompat="@drawable/recherche" />
 
     </LinearLayout>
 
@@ -152,6 +150,7 @@
                         android:id="@+id/spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:spinnerMode="dropdown"
                         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
                 </LinearLayout>
@@ -266,6 +265,7 @@
                 android:id="@+id/toolbar5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
                 android:layout_weight="1"
                 android:background="#FF5722"
                 android:minHeight="?attr/actionBarSize"
