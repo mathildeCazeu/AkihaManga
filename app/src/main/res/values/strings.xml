@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AkihaManga</string>
+    <string name="b_seconnecter">Se connecter</string>
+    <string name="tv_bienvenue">Connectez-vous et bénéficiez de plus de fonctionnalités!</string>
+    <string name="b_inscire">S\'inscrire</string>
+    <string name="b_connecter">Se connecter</string>
+    <string name="et_username">Adresse email ou identifiant</string>
+    <string name="et_mdp">Mot de passe</string>
+    <string name="tv_mdpOublie">Mot de passe oublié ?</string>
+</resources>
