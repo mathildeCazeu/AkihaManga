@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">AkihaManga</string>
     <string name="b_seconnecter">Se connecter</string>
+    <string name="tv_bienvenue">Connectez-vous et bénéficiez de plus de fonctionnalités!</string>
+    <string name="b_inscire">S\'inscrire</string>
+    <string name="b_connecter">Se connecter</string>
 </resources>
