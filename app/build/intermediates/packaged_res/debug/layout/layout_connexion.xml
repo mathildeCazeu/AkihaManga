@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_bienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/tv_bienvenue"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_bienvenue"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/et_username"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_username"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/et_mdp"
+        android:padding="15dp" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_boutons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password"
+        android:layout_centerInParent="true"
+        android:clipToPadding="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/b_inscription"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="@string/b_inscire" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="0dp"/>
+"
+
+        <Button
+            android:id="@+id/b_connection"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/akihaMangaOrange"
+            android:text="@string/b_connecter" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_mdpOublie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/tv_mdpOublie"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:layout_below="@id/ll_boutons"/>
+
+
+</RelativeLayout>
