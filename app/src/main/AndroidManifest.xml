@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AkihaManga">
         <activity
+            android:name=".recherche_en_ligne"
+            android:exported="false" />
+        <activity
             android:name=".detailsVolume"
             android:exported="false" />
         <activity
@@ -19,10 +22,10 @@
             android:name=".pageRecherche"
             android:exported="false" />
         <activity
-            android:name=".pageFavori"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".pageFavori"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
