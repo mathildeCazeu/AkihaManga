@@ -63,7 +63,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        app:srcCompat="@drawable/jojotome" />
+                        app:srcCompat="@drawable/jojopart1tome" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -219,7 +219,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="20dp"
-                        app:srcCompat="@drawable/jojotome2" />
+                        app:srcCompat="@drawable/jojopart1tome" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -256,7 +256,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        app:srcCompat="@drawable/jojotome3" />
+                        app:srcCompat="@drawable/jojopart2tome" />
                 </LinearLayout>
 
                 <LinearLayout
