@@ -110,7 +110,7 @@
                         android:layout_height="140dp"
                         android:layout_marginTop="20dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jojotome" />
+                        app:srcCompat="@drawable/jojopart1tome" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
