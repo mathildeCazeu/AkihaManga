@@ -13,6 +13,9 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
+            android:name=".recherche_par_nom"
+            android:exported="false" />
+        <activity
             android:name=".recherche_en_ligne"
             android:exported="false" />
         <activity
@@ -28,7 +31,7 @@
             android:name=".pageFavori"
             android:exported="false" />
         <activity
-            android:name=".recherche_par_nom"
+            android:name=".recherche_par_categorie"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
