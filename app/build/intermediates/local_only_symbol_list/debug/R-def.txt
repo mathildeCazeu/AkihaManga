@@ -40,8 +40,8 @@ id divider
 id editTextTextPersonName
 id et_password
 id et_username
+id ib_drame
 id imageButton11
-id imageButton2
 id imageButton3
 id imageButton4
 id imageButton5

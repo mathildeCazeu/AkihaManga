@@ -2744,6 +2744,7 @@ int id home 0x7f0800d9
 int id homeAsUp 0x7f0800da
 int id honorRequest 0x7f0800db
 int id horizontal_only 0x7f0800dc
+int id ib_drame 0x7f08026e
 int id icon 0x7f0800dd
 int id icon_group 0x7f0800de
 int id ifRoom 0x7f0800df
@@ -2751,7 +2752,6 @@ int id ignore 0x7f0800e0
 int id ignoreRequest 0x7f0800e1
 int id image 0x7f0800e2
 int id imageButton11 0x7f0800e3
-int id imageButton2 0x7f0800e4
 int id imageButton3 0x7f0800e5
 int id imageButton4 0x7f0800e6
 int id imageButton5 0x7f0800e7

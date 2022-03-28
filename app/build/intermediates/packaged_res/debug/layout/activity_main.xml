@@ -3,9 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ll_main"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,7 +66,8 @@
                 android:gravity="center|top"
                 android:text="Couvertures des mangas du moment ou nouvelles sorties"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar2"

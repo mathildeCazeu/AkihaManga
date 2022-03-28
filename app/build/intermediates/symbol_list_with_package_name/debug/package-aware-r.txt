@@ -2745,6 +2745,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id ib_drame
 id icon
 id icon_group
 id ifRoom
@@ -2752,7 +2753,6 @@ id ignore
 id ignoreRequest
 id image
 id imageButton11
-id imageButton2
 id imageButton3
 id imageButton4
 id imageButton5
