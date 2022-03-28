@@ -50,13 +50,15 @@
             android:layout_width="145dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/akihaMangaOrange"
             android:padding="10dp"
             android:text="@string/b_inscire" />
 
         <Space
             android:layout_width="20dp"
             android:layout_height="0dp"/>
-"
+        "
 
         <Button
             android:id="@+id/b_connection"

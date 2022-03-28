@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.akihamanga",
+  "applicationId": "com.example.akihamanga_fixed",
   "variantName": "debug",
   "elements": [
     {

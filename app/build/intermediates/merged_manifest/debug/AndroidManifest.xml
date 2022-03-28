@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.akihamanga"
+    package="com.example.akihamanga_fixed"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="31" />
+        android:targetSdkVersion="32" />
 
     <application
         android:allowBackup="true"
@@ -17,18 +17,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.AkihaManga" >
+        android:theme="@style/Theme.AkihaManga_Fixed" >
         <activity
-            android:name="com.example.akihamanga.pageInformation"
-            android:exported="false" />
-        <activity
-            android:name="com.example.akihamanga.pageRecherche"
-            android:exported="false" />
-        <activity
-            android:name="com.example.akihamanga.pageFavori"
-            android:exported="false" />
-        <activity
-            android:name="com.example.akihamanga.MainActivity"
+            android:name="com.example.akihamanga_fixed.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,9 +28,35 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.akihamanga.geolocalisation"
+            android:name="com.example.akihamanga_fixed.recherche_par_nom"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akihamanga_fixed.recherche_en_ligne"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akihamanga_fixed.detailsVolume"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akihamanga_fixed.pageInformation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akihamanga_fixed.pageRecherche"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akihamanga_fixed.pageFavori"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.akihamanga_fixed.androidx-startup"
             android:exported="false" >
-        </activity>
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
     </application>
 
 </manifest>

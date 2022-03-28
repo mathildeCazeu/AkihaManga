@@ -3,6 +3,11 @@
     android:shape="rectangle">
 
     <solid android:backgroundTint="@color/akihaMangaOrange"/>
+    <solid android:color="@color/akihaMangaOrange"/>
     <corners    android:radius="150dp"/>
+    <size
+        android:height="20dp"
+        android:width="100dp"
+        />
 
 </shape>

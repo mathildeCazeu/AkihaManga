@@ -1,98 +1,162 @@
 [
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_momoxshoplogo.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\momoxshoplogo.png"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_recherche.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\recherche.png"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_coeurfavorisrempli.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\coeurfavorisrempli.png"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recherche_en_ligne.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\layout\\activity_recherche_en_ligne.xml"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recherche_par_nom.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\layout\\activity_recherche_par_nom.xml"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_connexion.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\layout\\layout_connexion.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_page_information.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\layout\\activity_page_information.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_demonslayertome.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\demonslayertome.png"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_jojopart2tome.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\jojopart2tome.png"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_onepiecetome.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\onepiecetome.png"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_coeur.PNG.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\coeur.PNG"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_recherche.png.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\recherche.png"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_page_favori.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\layout\\activity_page_favori.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_fnaclogo.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\fnaclogo.png"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\layout_geolocalisation_test.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\layout\\geolocalisation_test.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_coeurfavoris.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable-v24\\coeurfavoris.png"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_page_information.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\layout\\activity_page_information.xml"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_button.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\rounded_button.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_page_recherche.xml.flat",
-        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\layout\\activity_page_recherche.xml"
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_jojopart4tome.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\jojopart4tome.png"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_connexion.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\layout\\layout_connexion.xml"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_snktome.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\snktome.png"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_page_recherche.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\layout\\activity_page_recherche.xml"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_berserktome.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\berserktome.png"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_jojopart3tome.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\jojopart3tome.png"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_details_volume.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\layout\\activity_details_volume.xml"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_amazonlogo.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\amazonlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_jojopart1tome.png.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\jojopart1tome.png"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_page_favori.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\layout\\activity_page_favori.xml"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\layout_geolocalisation_test.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\layout\\geolocalisation_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\cazen\\Documents\\AkihaManga_Fixed\\app\\src\\main\\res\\drawable\\rounded_button.xml"
     }
 ]
