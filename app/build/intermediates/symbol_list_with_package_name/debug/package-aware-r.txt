@@ -3254,6 +3254,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout geolocalisation
 layout geolocalisation_test
 layout layout_connexion
 layout m3_alert_dialog

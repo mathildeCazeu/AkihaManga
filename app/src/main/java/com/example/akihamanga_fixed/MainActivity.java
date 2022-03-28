@@ -2,16 +2,18 @@ package com.example.akihamanga_fixed;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button b_seconnecter;
-    private TextView tf_textView42;
+    private ImageView iv_recherche;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,16 +21,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         b_seconnecter = (Button) findViewById(R.id.b_seconnecter);
-        b_seconnecter.setOnClickListener(new View.OnClickListener() {
+        b_seconnecter.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View view) {
                 openConnexion();
             }
         });
 
-        tf_textView42 = (TextView) findViewById(R.id.textView42);
+        iv_recherche = (ImageView) findViewById(R.id.imageView26); //Appel de l'image view 26 -> image de loupe
+        iv_recherche.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(MainActivity.this, pageRecherche.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
+    //POPUP connexion
     public void openConnexion()
     {
         dialogueBoutonConnexion dialogue = new dialogueBoutonConnexion();

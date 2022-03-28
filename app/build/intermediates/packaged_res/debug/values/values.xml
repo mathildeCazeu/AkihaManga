@@ -16,7 +16,7 @@
     <string name="et_username">Adresse email ou identifiant</string>
     <string name="tv_bienvenue">Connectez-vous et bénéficiez de plus de fonctionnalités!</string>
     <string name="tv_mdpOublie">Mot de passe oublié ?</string>
-    <style name="Theme.AkihaManga_Fixed" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.AkihaManga_Fixed" parent="Theme.AppCompat.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

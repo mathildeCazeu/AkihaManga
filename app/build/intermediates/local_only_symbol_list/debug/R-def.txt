@@ -180,6 +180,7 @@ layout activity_page_information
 layout activity_page_recherche
 layout activity_recherche_en_ligne
 layout activity_recherche_par_nom
+layout geolocalisation
 layout geolocalisation_test
 layout layout_connexion
 mipmap ic_launcher
