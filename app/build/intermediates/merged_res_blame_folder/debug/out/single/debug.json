@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\rectangle.xml"
     },
     {
+        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_drame.png.flat",
+        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\logo_drame.png"
+    },
+    {
         "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
         "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_horreur.png.flat",
+        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\logo_horreur.png"
     },
     {
         "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -84,6 +92,10 @@
         "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\demonslayertome.png"
     },
     {
+        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_fantaisie.png.flat",
+        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\logo_fantaisie.png"
+    },
+    {
         "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -104,6 +116,10 @@
         "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\layout\\activity_recherche_par_nom.xml"
     },
     {
+        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_sport.png.flat",
+        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\logo_sport.png"
+    },
+    {
         "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -118,6 +134,14 @@
     {
         "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_recherche.png.flat",
         "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\recherche.png"
+    },
+    {
+        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_action.png.flat",
+        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\logo_action.png"
+    },
+    {
+        "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_romance.png.flat",
+        "source": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\src\\main\\res\\drawable\\logo_romance.png"
     },
     {
         "merged": "C:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_page_favori.xml.flat",
