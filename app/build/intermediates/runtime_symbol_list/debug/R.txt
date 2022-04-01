@@ -2449,6 +2449,7 @@ int drawable btn_radio_on_mtrl 0x7f070060
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f070061
 int drawable coeurfavoris 0x7f070062
 int drawable coeurfavorisrempli 0x7f070063
+int drawable custom_edit_text_cut 0x7f0700b4
 int drawable demonslayertome 0x7f070064
 int drawable design_fab_background 0x7f070065
 int drawable design_ic_visibility 0x7f070066

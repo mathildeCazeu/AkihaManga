@@ -13,14 +13,23 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+
+        <!--APPEL DU CUSTOM DE L'EDIT TEXT (voir drawable custom_edit_text_cut) -->
         <EditText
             android:id="@+id/et_rechercher"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
+            android:paddingLeft="5dp"
             android:layout_weight="8"
+            android:background="@drawable/custom_edit_text_cut"
             android:ems="10"
             android:hint="Chercher un titre ou créateur"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textAlignment="textStart"
+            android:textColor="@color/cardview_dark_background"
+            android:textColorHint="@color/cardview_dark_background"
+            android:textSize="14sp"
+            android:textStyle="italic" />
 
         <Button
             android:id="@+id/button"

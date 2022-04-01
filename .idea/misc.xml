@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Utilisateur/Documents/IUT/AkihaManga/Application/app/src/main/res/drawable/custom_edit_text_cut.xml" value="0.263" />
         <entry key="..\:/Users/Utilisateur/Documents/IUT/AkihaManga/Application/app/src/main/res/drawable/rounded_button.xml" value="0.22" />
         <entry key="..\:/Users/Utilisateur/Documents/IUT/AkihaManga/Application/app/src/main/res/layout/activity_main.xml" value="0.2696629213483146" />
         <entry key="..\:/Users/Utilisateur/Documents/IUT/AkihaManga/Application/app/src/main/res/layout/activity_page_favori.xml" value="0.30833333333333335" />
         <entry key="..\:/Users/Utilisateur/Documents/IUT/AkihaManga/Application/app/src/main/res/layout/activity_page_information.xml" value="0.1" />
         <entry key="..\:/Users/Utilisateur/Documents/IUT/AkihaManga/Application/app/src/main/res/layout/activity_page_recherche.xml" value="0.31657608695652173" />
+        <entry key="..\:/Users/Utilisateur/Documents/IUT/AkihaManga/Application/app/src/main/res/layout/custom_edit_text_cut.xml" value="1.450657894736842" />
         <entry key="..\:/Users/Utilisateur/Documents/IUT/AkihaManga/Application/app/src/main/res/layout/geolocalisation_test.xml" value="0.33" />
         <entry key="..\:/Users/Utilisateur/Documents/IUT/AkihaManga/Application/app/src/main/res/layout/layout_connexion.xml" value="0.2" />
       </map>

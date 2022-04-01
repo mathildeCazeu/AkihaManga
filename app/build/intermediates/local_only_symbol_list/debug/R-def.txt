@@ -12,6 +12,7 @@ drawable amazonlogo
 drawable berserktome
 drawable coeurfavoris
 drawable coeurfavorisrempli
+drawable custom_edit_text_cut
 drawable demonslayertome
 drawable fnaclogo
 drawable ic_launcher_background
