@@ -44,12 +44,10 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingTop="10dp">
 
         <TableRow
             android:paddingTop="10dp"
-            android:paddingBottom="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -59,7 +57,6 @@
                 android:layout_height="100dp"
                 android:clickable="true"
                 android:src="@drawable/logo_drame" />
-
 
             <ImageView
                 android:id="@+id/iv_fantaisie"
@@ -77,10 +74,35 @@
                 android:clickable="true"
                 android:src="@drawable/logo_romance"/>
         </TableRow>
-
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/tv_drame"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                tools:text="Drame">
+            </TextView>
+            <TextView
+                android:id="@+id/tv_fantaisie"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                tools:text="Fantaisie"
+                android:layout_weight="4">
+            </TextView>
+            <TextView
+                android:id="@+id/tv_romance"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                tools:text="Romance"
+                android:layout_weight="2">
+            </TextView>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp">
 
             <ImageView
                 android:id="@+id/iv_action"
@@ -105,6 +127,30 @@
                 android:clickable="true"
                 android:src="@drawable/logo_sport" />
         </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/tv_action"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                tools:text="Action">
+            </TextView>
+            <TextView
+                android:id="@+id/tv_horreur"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                tools:text="Horreur"
+                android:layout_weight="4">
+            </TextView>
+            <TextView
+                android:id="@+id/tv_sport"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                tools:text="Sport"
+                android:layout_weight="2">
+            </TextView>
+        </TableRow>
     </TableLayout>
-
 </LinearLayout>

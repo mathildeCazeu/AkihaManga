@@ -159,9 +159,13 @@ id toolbar4
 id toolbar5
 id toolbar6
 id tv_accuracy
+id tv_action
 id tv_address
 id tv_altitude
 id tv_bienvenue
+id tv_drame
+id tv_fantaisie
+id tv_horreur
 id tv_labelaccuracy
 id tv_labelaltitude
 id tv_labellat
@@ -174,8 +178,10 @@ id tv_lbladdress
 id tv_lon
 id tv_mdpOublie
 id tv_message
+id tv_romance
 id tv_sensor
 id tv_speed
+id tv_sport
 id tv_updates
 layout activity_details_volume
 layout activity_main
