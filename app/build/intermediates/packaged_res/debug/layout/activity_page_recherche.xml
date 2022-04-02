@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,150 +9,272 @@
     android:background="@color/white">
 
     <LinearLayout
+        android:id="@+id/ll_headerRecherche"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp">
 
 
         <!--APPEL DU CUSTOM DE L'EDIT TEXT (voir drawable custom_edit_text_cut) -->
         <EditText
             android:id="@+id/et_rechercher"
             android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:paddingLeft="5dp"
+            android:layout_height="50dp"
             android:layout_weight="8"
             android:background="@drawable/custom_edit_text_cut"
-            android:ems="10"
+
             android:hint="Chercher un titre ou créateur"
             android:inputType="textPersonName"
+            android:paddingLeft="10dp"
             android:textAlignment="textStart"
             android:textColor="@color/cardview_dark_background"
             android:textColorHint="@color/cardview_dark_background"
-            android:textSize="14sp"
+            android:textSize="15sp"
             android:textStyle="italic" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/b_annuler"
             android:layout_width="wrap_content"
-            android:layout_height="38dp"
+            android:layout_height="50dp"
             android:layout_weight="2"
             android:backgroundTint="#FFFFFF"
+            android:shadowColor="@color/cardview_dark_background"
             android:text="Annuler"
             android:textColor="#000000" />
     </LinearLayout>
 
-    <TableLayout
+    <LinearLayout
+        android:id="@+id/ll_categorie"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:layout_below="@id/ll_headerRecherche">
 
-        <TableRow
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:id="@+id/iv_drame"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:clickable="true"
-                android:src="@drawable/logo_drame" />
-
-            <ImageView
-                android:id="@+id/iv_fantaisie"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:clickable="true"
-                android:layout_weight="1"
-                android:src="@drawable/logo_fantaisie" />
-
-            <ImageView
-                android:id="@+id/iv_romance"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:scaleType="fitCenter"
-                android:clickable="true"
-                android:src="@drawable/logo_romance"/>
-        </TableRow>
-        <TableRow
+        <LinearLayout
+            android:id="@+id/ll_premiereLignePicto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp">
-            <TextView
-                android:id="@+id/tv_drame"
-                android:textAlignment="center"
-                android:textColor="@color/cardview_dark_background"
-                tools:text="Drame">
-            </TextView>
-            <TextView
-                android:id="@+id/tv_fantaisie"
-                android:textAlignment="center"
-                android:textColor="@color/cardview_dark_background"
-                tools:text="Fantaisie"
-                android:layout_weight="4">
-            </TextView>
-            <TextView
-                android:id="@+id/tv_romance"
-                android:textAlignment="center"
-                android:textColor="@color/cardview_dark_background"
-                tools:text="Romance"
-                android:layout_weight="2">
-            </TextView>
-        </TableRow>
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingTop="10dp">
+            android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/iv_action"
-                android:layout_width="102dp"
-                android:layout_height="100dp"
-                android:clickable="true"
-                android:src="@drawable/logo_action" />
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/iv_horreur"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                android:clickable="true"
-                android:src="@drawable/logo_horreur"  />
+                <ImageView
+                    android:id="@+id/iv_drame"
+                    android:layout_width="125dp"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    android:contentDescription="Drame"
+                    android:src="@drawable/logo_drame" />
+            </LinearLayout>
 
-            <ImageView
-                android:id="@+id/iv_sport"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:scaleType="fitCenter"
-                android:clickable="true"
-                android:src="@drawable/logo_sport" />
-        </TableRow>
-        <TableRow
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp">
+
+                <ImageView
+                    android:id="@+id/iv_fantaisie"
+                    android:layout_width="125dp"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    android:contentDescription="Fantaisie"
+                    android:src="@drawable/logo_fantaisie" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_romance"
+                    android:layout_width="125dp"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    android:contentDescription="Romance"
+                    android:src="@drawable/logo_romance" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_premiereLigneLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp">
-            <TextView
-                android:id="@+id/tv_action"
-                android:textAlignment="center"
-                android:textColor="@color/cardview_dark_background"
-                tools:text="Action">
-            </TextView>
-            <TextView
-                android:id="@+id/tv_horreur"
-                android:textAlignment="center"
-                android:textColor="@color/cardview_dark_background"
-                tools:text="Horreur"
-                android:layout_weight="4">
-            </TextView>
-            <TextView
-                android:id="@+id/tv_sport"
-                android:textAlignment="center"
-                android:textColor="@color/cardview_dark_background"
-                tools:text="Sport"
-                android:layout_weight="2">
-            </TextView>
-        </TableRow>
-    </TableLayout>
-</LinearLayout>
+            android:layout_below="@id/ll_premiereLignePicto"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_drame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Drame"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_fantaisie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Fantaisie"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="Fantaisie" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_romance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:text="Romance"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="Romance" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_deuxiemeLignePicto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_premiereLigneLabel"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_action"
+                    android:layout_width="125dp"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    android:contentDescription="Action"
+                    android:src="@drawable/logo_action" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp">
+
+                <ImageView
+                    android:id="@+id/iv_horreur"
+                    android:layout_width="125dp"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    android:contentDescription="Horreur"
+                    android:src="@drawable/logo_horreur" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_sport"
+                    android:layout_width="125dp"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    android:contentDescription="Sport"
+                    android:src="@drawable/logo_sport" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_deuxiemeLigneLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_premiereLignePicto"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_action"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Action"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_horreur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Horreur"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="Fantaisie" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_sport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:text="Sport"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

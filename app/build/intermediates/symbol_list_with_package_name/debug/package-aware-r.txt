@@ -2618,6 +2618,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id b_annuler
 id b_connection
 id b_inscription
 id b_seconnecter
@@ -2632,7 +2633,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
 id button2
 id button3
 id button4
@@ -2821,7 +2821,13 @@ id linear
 id listMode
 id list_item
 id ll_boutons
+id ll_categorie
+id ll_deuxiemeLigneLabel
+id ll_deuxiemeLignePicto
+id ll_headerRecherche
 id ll_main
+id ll_premiereLigneLabel
+id ll_premiereLignePicto
 id masked
 id match_constraint
 id match_parent

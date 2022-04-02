@@ -34,10 +34,10 @@ drawable recherche
 drawable rectangle
 drawable rounded_button
 drawable snktome
+id b_annuler
 id b_connection
 id b_inscription
 id b_seconnecter
-id button
 id button2
 id button3
 id button4
@@ -87,7 +87,13 @@ id iv_horreur
 id iv_romance
 id iv_sport
 id ll_boutons
+id ll_categorie
+id ll_deuxiemeLigneLabel
+id ll_deuxiemeLignePicto
+id ll_headerRecherche
 id ll_main
+id ll_premiereLigneLabel
+id ll_premiereLignePicto
 id mv_logo
 id spinner
 id sw_gps
