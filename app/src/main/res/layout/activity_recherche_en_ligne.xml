@@ -266,14 +266,14 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView32"
+            android:id="@+id/iv_home"
             android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             app:srcCompat="@drawable/homelogo" />
 
         <ImageView
-            android:id="@+id/imageView36"
+            android:id="@+id/iv_favoris"
             android:layout_width="20dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
