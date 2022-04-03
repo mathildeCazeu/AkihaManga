@@ -2456,7 +2456,9 @@ int drawable design_ic_visibility 0x7f070067
 int drawable design_ic_visibility_off 0x7f070068
 int drawable design_password_eye 0x7f070069
 int drawable design_snackbar_background 0x7f07006a
+int drawable favorislogo 0x7f0700b5
 int drawable fnaclogo 0x7f07006b
+int drawable homelogo 0x7f0700b6
 int drawable ic_clock_black_24dp 0x7f07006c
 int drawable ic_keyboard_black_24dp 0x7f07006d
 int drawable ic_launcher_background 0x7f07006e
@@ -2782,8 +2784,10 @@ int id imageView29 0x7f0800f8
 int id imageView3 0x7f0800f9
 int id imageView30 0x7f0800fa
 int id imageView31 0x7f0800fb
+int id imageView32 0x7f080277
 int id imageView33 0x7f0800fc
 int id imageView34 0x7f0800fd
+int id imageView36 0x7f080278
 int id imageView4 0x7f0800fe
 int id imageView5 0x7f0800ff
 int id imageView6 0x7f080100
@@ -3097,11 +3101,8 @@ int id title 0x7f080233
 int id titleDividerNoCustom 0x7f080234
 int id title_template 0x7f080235
 int id toggle 0x7f080236
-int id toolbar 0x7f080237
 int id toolbar2 0x7f080238
 int id toolbar3 0x7f080239
-int id toolbar4 0x7f08023a
-int id toolbar5 0x7f08023b
 int id toolbar6 0x7f08023c
 int id top 0x7f08023d
 int id topPanel 0x7f08023e

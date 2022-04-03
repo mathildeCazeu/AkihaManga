@@ -2457,7 +2457,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable favorislogo
 drawable fnaclogo
+drawable homelogo
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2783,8 +2785,10 @@ id imageView29
 id imageView3
 id imageView30
 id imageView31
+id imageView32
 id imageView33
 id imageView34
+id imageView36
 id imageView4
 id imageView5
 id imageView6
@@ -3098,11 +3102,8 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolbar
 id toolbar2
 id toolbar3
-id toolbar4
-id toolbar5
 id toolbar6
 id top
 id topPanel

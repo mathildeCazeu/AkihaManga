@@ -1,4 +1,4 @@
-#Sun Apr 03 15:04:22 CEST 2022
+#Sun Apr 03 16:05:35 CEST 2022
 base.2=D\:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
 path.2=15/classes.dex
 base.1=D\:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

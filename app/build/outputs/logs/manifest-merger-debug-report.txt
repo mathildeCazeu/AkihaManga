@@ -90,12 +90,12 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Tristan\.gradle\ca
 		ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:11:9-59
-activity#com.example.akihamanga_fixed.MainActivity
+activity#com.example.akihamanga_fixed.detailsVolume
 ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:12:9-19:20
 	android:exported
 		ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:13:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:15:13-18:29
 action#android.intent.action.MAIN
@@ -118,12 +118,12 @@ ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:24:9-26:4
 		ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
 		ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:25:13-47
-activity#com.example.akihamanga_fixed.detailsVolume
+activity#com.example.akihamanga_fixed.MainActivity
 ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
 		ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:28:13-42
+		ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:28:13-41
 activity#com.example.akihamanga_fixed.pageInformation
 ADDED from D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:exported

@@ -14,7 +14,9 @@ drawable coeurfavoris
 drawable coeurfavorisrempli
 drawable custom_edit_text_cut
 drawable demonslayertome
+drawable favorislogo
 drawable fnaclogo
+drawable homelogo
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable jojopart1tome
@@ -72,8 +74,10 @@ id imageView29
 id imageView3
 id imageView30
 id imageView31
+id imageView32
 id imageView33
 id imageView34
+id imageView36
 id imageView4
 id imageView5
 id imageView6
@@ -158,11 +162,8 @@ id textView60
 id textView7
 id textView8
 id textView9
-id toolbar
 id toolbar2
 id toolbar3
-id toolbar4
-id toolbar5
 id toolbar6
 id tv_accuracy
 id tv_action

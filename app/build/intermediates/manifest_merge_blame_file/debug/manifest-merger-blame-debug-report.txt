@@ -30,8 +30,8 @@
 20-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:11:9-59
 21        <activity
 21-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:12:9-19:20
-22            android:name="com.example.akihamanga_fixed.MainActivity"
-22-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:13:13-41
+22            android:name="com.example.akihamanga_fixed.detailsVolume"
+22-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:13:13-42
 23            android:exported="true" >
 23-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:14:13-36
 24            <intent-filter>
@@ -59,8 +59,8 @@
 35-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:26:13-37
 36        <activity
 36-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:27:9-29:40
-37            android:name="com.example.akihamanga_fixed.detailsVolume"
-37-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:28:13-42
+37            android:name="com.example.akihamanga_fixed.MainActivity"
+37-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:28:13-41
 38            android:exported="false" />
 38-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:29:13-37
 39        <activity

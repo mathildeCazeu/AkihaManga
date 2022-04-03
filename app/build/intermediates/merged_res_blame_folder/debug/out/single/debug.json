@@ -44,6 +44,10 @@
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_favorislogo.png.flat",
+        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\favorislogo.png"
+    },
+    {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_details_volume.xml.flat",
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\layout\\activity_details_volume.xml"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recherche_en_ligne.xml.flat",
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\layout\\activity_recherche_en_ligne.xml"
+    },
+    {
+        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_homelogo.png.flat",
+        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\homelogo.png"
     },
     {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_fantaisie.png.flat",
