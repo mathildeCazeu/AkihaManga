@@ -2490,6 +2490,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable mashup
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2788,6 +2789,7 @@ id imageView31
 id imageView32
 id imageView33
 id imageView34
+id imageView35
 id imageView36
 id imageView4
 id imageView5
@@ -3103,8 +3105,6 @@ id titleDividerNoCustom
 id title_template
 id toggle
 id toolbar2
-id toolbar3
-id toolbar6
 id top
 id topPanel
 id touch_outside
@@ -3135,7 +3135,6 @@ id tv_lat
 id tv_lbladdress
 id tv_lon
 id tv_mdpOublie
-id tv_message
 id tv_romance
 id tv_sensor
 id tv_speed

@@ -30,6 +30,7 @@ drawable logo_fantaisie
 drawable logo_horreur
 drawable logo_romance
 drawable logo_sport
+drawable mashup
 drawable momoxshoplogo
 drawable onepiecetome
 drawable recherche
@@ -77,6 +78,7 @@ id imageView31
 id imageView32
 id imageView33
 id imageView34
+id imageView35
 id imageView36
 id imageView4
 id imageView5
@@ -163,8 +165,6 @@ id textView7
 id textView8
 id textView9
 id toolbar2
-id toolbar3
-id toolbar6
 id tv_accuracy
 id tv_action
 id tv_address
@@ -184,7 +184,6 @@ id tv_lat
 id tv_lbladdress
 id tv_lon
 id tv_mdpOublie
-id tv_message
 id tv_romance
 id tv_sensor
 id tv_speed

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-99171759/AkihaManga_Fixed.iml" filepath="$PROJECT_DIR$/.idea/modules/-99171759/AkihaManga_Fixed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AkihaManga_Fixed.app.iml" filepath="$PROJECT_DIR$/.idea/modules/AkihaManga_Fixed.app.iml" />
     </modules>
   </component>
 </project>

@@ -6,102 +6,102 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml
+8-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml
+9-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:5:5-39:19
+11-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:5:5-39:19
 12        android:allowBackup="true"
-12-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Tristan\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\cazen\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:7:9-43
+15-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:8:9-41
+16-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:9:9-54
+17-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:10:9-35
+18-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/Theme.AppCompat.NoActionBar" >
-20-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:11:9-59
+20-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:11:9-59
 21        <activity
-21-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:12:9-19:20
-22            android:name="com.example.akihamanga_fixed.detailsVolume"
-22-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:13:13-42
+21-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:12:9-19:20
+22            android:name="com.example.akihamanga_fixed.MainActivity"
+22-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:13:13-41
 23            android:exported="true" >
-23-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:14:13-36
+23-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:14:13-36
 24            <intent-filter>
-24-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:15:13-18:29
+24-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:15:13-18:29
 25                <action android:name="android.intent.action.MAIN" />
-25-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:16:17-69
-25-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:16:25-66
+25-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:16:25-66
 26
 27                <category android:name="android.intent.category.LAUNCHER" />
-27-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:17:17-77
-27-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:17:27-74
+27-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:17:17-77
+27-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:17:27-74
 28            </intent-filter>
 29        </activity>
 30        <activity
-30-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:21:9-23:40
+30-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:21:9-23:40
 31            android:name="com.example.akihamanga_fixed.recherche_par_nom"
-31-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:22:13-46
+31-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:22:13-46
 32            android:exported="false" />
-32-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:23:13-37
+32-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:23:13-37
 33        <activity
-33-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:24:9-26:40
+33-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:24:9-26:40
 34            android:name="com.example.akihamanga_fixed.recherche_en_ligne"
-34-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:25:13-47
+34-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:25:13-47
 35            android:exported="false" />
-35-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:26:13-37
+35-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:26:13-37
 36        <activity
-36-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:27:9-29:40
-37            android:name="com.example.akihamanga_fixed.MainActivity"
-37-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:28:13-41
+36-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:27:9-29:40
+37            android:name="com.example.akihamanga_fixed.detailsVolume"
+37-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:28:13-42
 38            android:exported="false" />
-38-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:29:13-37
+38-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:29:13-37
 39        <activity
-39-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:30:9-32:40
+39-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:30:9-32:40
 40            android:name="com.example.akihamanga_fixed.pageInformation"
-40-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:31:13-44
+40-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:31:13-44
 41            android:exported="false" />
-41-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:32:13-37
+41-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:32:13-37
 42        <activity
-42-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:33:9-35:40
+42-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:33:9-35:40
 43            android:name="com.example.akihamanga_fixed.pageRecherche"
-43-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:34:13-42
+43-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:34:13-42
 44            android:exported="false" />
-44-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:35:13-37
+44-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:35:13-37
 45        <activity
-45-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:36:9-38:40
+45-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:36:9-38:40
 46            android:name="com.example.akihamanga_fixed.pageFavori"
-46-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:37:13-39
+46-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:37:13-39
 47            android:exported="false" />
-47-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:38:13-37
+47-->C:\Users\cazen\Desktop\IUT\AkihaMangaTest\app\src\main\AndroidManifest.xml:38:13-37
 48
 49        <provider
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tristan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\cazen\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 50            android:name="androidx.startup.InitializationProvider"
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tristan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\cazen\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 51            android:authorities="com.example.akihamanga_fixed.androidx-startup"
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tristan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\cazen\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
 52            android:exported="false" >
-52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tristan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\cazen\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 53            <meta-data
-53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tristan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\cazen\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tristan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\cazen\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 55                android:value="androidx.startup" />
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tristan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\cazen\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 56            <meta-data
-56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tristan\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\cazen\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tristan\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\cazen\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 58                android:value="androidx.startup" />
-58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tristan\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\cazen\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 59        </provider>
 60    </application>
 61
