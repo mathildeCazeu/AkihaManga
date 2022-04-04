@@ -39,18 +39,18 @@ public class pageRecherche extends AppCompatActivity {
         });
 
         // LORS D'UNE RECHERCHE PAR NOM
-       /* et_rechercher.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+       et_rechercher.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View view, boolean hasFocus) {
                 if(!hasFocus){
                     if(et_rechercher.getText()!=null){
-                        final Intent demarre = new Intent(getApplicationContext(),recherche_par_nom.class);
-                        demarre.putExtra("nomSerie",et_rechercher.getText().toString());
+                        final Intent demarre = new Intent(getApplicationContext(), recherche_par_nom.class);
+                        demarre.putExtra("nomSerie", et_rechercher.getText().toString());
                         startActivity(demarre);
                     }
                 }
             }
-        });*/
+       });
 
 
         //LORS D'UNE RECHERCHE PAR GENRE

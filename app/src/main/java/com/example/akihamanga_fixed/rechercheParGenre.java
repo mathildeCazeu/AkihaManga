@@ -17,6 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class rechercheParGenre extends AppCompatActivity
 {
     private EditText et_rechercherNom;
+    private ImageView iv_recherche;
     private TextView tv_nombreResultat;
     private LinearLayout ll_listeSerie;
     private SeriesDAO series;
@@ -32,6 +33,17 @@ public class rechercheParGenre extends AppCompatActivity
         tv_nombreResultat=findViewById(R.id.tv_nombreResultat);
         ll_listeSerie=findViewById(R.id.ll_listeSerie);
         series = new SeriesDAO(this);
+
+        iv_recherche = (ImageView) findViewById(R.id.imageView26); //Appel de l'image view 26 -> image de loupe
+        /*iv_recherche.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(rechercheParGenre.this, pageRecherche.class);
+                startActivity(intent);
+            }
+        });*/
 
         /** A CORRIGER TAILLE IMAGE **/
         initListeSerie();
@@ -71,11 +83,12 @@ public class rechercheParGenre extends AppCompatActivity
             // INFORMATIONS DE LA SERIE
             nomSerie=new TextView(this);
             nomSerie.setTypeface(null, Typeface.BOLD);
-            nomSerie.setTextSize(16);
+            nomSerie.setTextSize(18);
             nomSerie.setLayoutParams(new LinearLayout.LayoutParams( LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
 
             auteurSerie=new TextView(this);
-            auteurSerie.setTextSize(16);
+            auteurSerie.setTextSize(14);
+            auteurSerie.setPadding(15, 15, 0, 0);
             auteurSerie.setLayoutParams(new LinearLayout.LayoutParams( LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
 
             // LAYOUT HORIZONTAL DE LA SERIE
@@ -93,6 +106,7 @@ public class rechercheParGenre extends AppCompatActivity
             // LAYOUT VERTICAL DES INFORMATIONS DE LA SERIE
             layoutInformations=new LinearLayout(this);
             layoutInformations.setOrientation(LinearLayout.VERTICAL);
+            layoutInformations.setPadding(0,50, 0, 0);
             layoutInformations.setLayoutParams(new LinearLayout.LayoutParams( LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT));
 
             // INSERTION DES LAYOUT DANS LA LISTE DES SERIES
