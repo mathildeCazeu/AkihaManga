@@ -68,6 +68,23 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
         db.execSQL("insert into Serie values(2,'Lovely Complex','Aya Nakahara','Shūeisha','Romance','Comedie');");
         db.execSQL("insert into Serie values(3,'One Piece','Eiichirō Oda','Shūeisha','Aventure','Comedie');");
 
+        /** AJOUT DE MATHILDE DANS LA BD **/
+        db.execSQL("insert into Serie values(4,'Dragon Ball','Toriyama Akira','Shūeisha','Action','Comédie');");
+        db.execSQL("insert into Serie values(5,'Naruto','Kishimoto Masashi','Shūeisha','Action','Comédie');");
+        db.execSQL("insert into Serie values(6,'Demon Slayer','Gotoge Koyoharu','Shūeisha','Action','Fantaisie');");
+        db.execSQL("insert into Serie values(7,'L attaque des Titans','Isayama Hajime','Kodansha','Action','Horreur');");
+        db.execSQL("insert into Serie values(8,'Fullmetal Alchemist','Arakawa Hiromu','Square Enix','Action','Drame');");
+        db.execSQL("insert into Serie values(9,'Hunter x Hunter','Togashi Yoshihiro','Shūeisha','Action','Fantaisie');");
+        db.execSQL("insert into Serie values(10,'Fairy Tail','Mashima Hiro','Kodansha','Action','Fantaisie');");
+        db.execSQL("insert into Serie values(11,'My Hero Academia','Horikoshi Kohei','Shūeisha','Action','Fantaisie');");
+        db.execSQL("insert into Serie values(12,'Prince du Tennis','Konomi Takeshi','Shūeisha','Sport','Action');");
+        db.execSQL("insert into Serie values(13,'Jujutsu Kaisen','Akutami Gege','Shūeisha','Action','Drame');");
+        db.execSQL("insert into Serie values(14,'Haikyu!!','Furudate Haruichi','Shūeisha','Sport','Drame');");
+
+
+
+
+
 
         // INSERTION TUPLE DANS LA TABLE MANGA
         // One Piece ( à insert tous les autres tomes )

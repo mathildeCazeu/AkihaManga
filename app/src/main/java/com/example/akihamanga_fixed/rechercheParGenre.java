@@ -33,7 +33,7 @@ public class rechercheParGenre extends AppCompatActivity
         ll_listeSerie=findViewById(R.id.ll_listeSerie);
         series = new SeriesDAO(this);
 
-
+        /** A CORRIGER TAILLE IMAGE **/
         initListeSerie();
 
 
@@ -59,7 +59,7 @@ public class rechercheParGenre extends AppCompatActivity
         TextView nomSerie;
         TextView auteurSerie;
 
-        tv_nombreResultat.setText(Integer.toString(series.getLesSeriesParGenre(nomGenre).size()));
+        tv_nombreResultat.setText(Integer.toString(series.getLesSeriesParGenre(nomGenre).size())+" résultats");
 
         // PLACEMENT DES SERIES
         for (int i = 0 ; i < series.getLesSeriesParGenre(nomGenre).size() ; i++){
@@ -78,7 +78,7 @@ public class rechercheParGenre extends AppCompatActivity
             auteurSerie.setTextSize(16);
             auteurSerie.setLayoutParams(new LinearLayout.LayoutParams( LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
 
-            // LAYOUT HORIZENTAL DE LA SERIE
+            // LAYOUT HORIZONTAL DE LA SERIE
             layoutSerie=new LinearLayout(this);
             layoutSerie.setOrientation(LinearLayout.HORIZONTAL);
             layoutSerie.setLayoutParams(new LinearLayout.LayoutParams( LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT));

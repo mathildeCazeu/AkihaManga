@@ -6,7 +6,7 @@ import android.database.Cursor;
 import java.util.ArrayList;
 
 public class SiteInternetDAO {
-    private static String base = "BD";
+    private static String base = "BD2.0";
     private static int version = 1;
     private BdSQLiteOpenHelper accesBD;
 
