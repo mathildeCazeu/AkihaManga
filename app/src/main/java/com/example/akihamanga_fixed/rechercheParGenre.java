@@ -66,7 +66,7 @@ public class rechercheParGenre extends AppCompatActivity
             // IMAGE DE LA SERIE
             imageSerie = new ImageView(this);
             imageSerie.setImageResource(R.drawable.jojopart4tome);
-            imageSerie.setLayoutParams(new LinearLayout.LayoutParams( ViewGroup.LayoutParams.WRAP_CONTENT, 130));
+            imageSerie.setLayoutParams(new LinearLayout.LayoutParams( ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
 
             // INFORMATIONS DE LA SERIE
             nomSerie=new TextView(this);
@@ -81,13 +81,14 @@ public class rechercheParGenre extends AppCompatActivity
             // LAYOUT HORIZONTAL DE LA SERIE
             layoutSerie=new LinearLayout(this);
             layoutSerie.setOrientation(LinearLayout.HORIZONTAL);
+            layoutSerie.setPadding(0,0,0,50);
             layoutSerie.setLayoutParams(new LinearLayout.LayoutParams( LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT));
 
             // LAYOUT VERTICAL DE L'IMAGE
             layoutImageSerie=new LinearLayout(this);
             layoutImageSerie.setOrientation(LinearLayout.VERTICAL);
             layoutImageSerie.setGravity(Gravity.LEFT | Gravity.START);
-            layoutImageSerie.setLayoutParams(new LinearLayout.LayoutParams( 90, LinearLayout.LayoutParams.MATCH_PARENT));
+            layoutImageSerie.setLayoutParams(new LinearLayout.LayoutParams( 500, 500));
 
             // LAYOUT VERTICAL DES INFORMATIONS DE LA SERIE
             layoutInformations=new LinearLayout(this);
@@ -113,7 +114,7 @@ public class rechercheParGenre extends AppCompatActivity
             auteurSerie.setTextColor(Color.BLACK);
             layoutInformations.addView(auteurSerie);
 
-            final int indexFilm=i;
+            final int indexSerie=i;
 
             // SI CLIQUE LAYOUT
 
@@ -121,7 +122,7 @@ public class rechercheParGenre extends AppCompatActivity
                 @Override
                 public void onClick(View v) {
                     // ENVOI identifiant du film dans la base de données à l'activité reservation
-                    demarre.putExtra("identifiantSerie", series.getLesSeriesParGenre(nomGenre).get(indexFilm).getIdSerie());
+                    demarre.putExtra("identifiantSerie", series.getLesSeriesParGenre(nomGenre).get(indexSerie).getIdSerie());
                     // DEMARRAGE de l'activité reservation
                     startActivity(demarre);
                 }

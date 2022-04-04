@@ -28,13 +28,12 @@
         <EditText
             android:id="@+id/et_rechercherNom"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_gravity="center_vertical"
             android:layout_weight="4"
             android:background="@drawable/rectangle"
             android:gravity="center_vertical"
-            android:paddingLeft="10dp"
-            android:text="Hirohiko A..." />
+            android:paddingLeft="10dp" />
 
 
         <ImageView
@@ -58,60 +57,13 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
 
         <LinearLayout
             android:id="@+id/ll_listeSerie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/imageView33"
-                        android:layout_width="wrap_content"
-                        android:layout_height="130dp"
-                        app:srcCompat="@drawable/jojopart4tome" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView58"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="15dp"
-                        android:text="Jojo's Bizarre Adventure Diamond is Unbreakable"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/textView59"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="5dp"
-                        android:text="Hirohiko Araki"
-                        android:textColor="@color/black"
-                        android:textSize="11sp"
-                        android:textStyle="italic" />
-
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
+            android:orientation="vertical" />
     </ScrollView>
 </LinearLayout>

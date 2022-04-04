@@ -1,9 +1,9 @@
-#Mon Apr 04 12:31:11 CEST 2022
-base.2=C\:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+#Mon Apr 04 18:49:44 CEST 2022
+base.2=D\:\\Projets Git\\AkihaManga\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
 path.2=15/classes.dex
-base.1=C\:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=D\:\\Projets Git\\AkihaManga\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=C\:\\Users\\Utilisateur\\Documents\\IUT\\AkihaManga\\Application\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=D\:\\Projets Git\\AkihaManga\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

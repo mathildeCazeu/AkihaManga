@@ -66,7 +66,7 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
         // INSERTION TUPLE DANS LA TABLE SERIE
         db.execSQL("insert into Serie values(1,'JoJos Bizarre Adventure','Hirohiko Araki','Shūeisha','Action','Drame');");
         db.execSQL("insert into Serie values(2,'Lovely Complex','Aya Nakahara','Shūeisha','Romance','Comedie');");
-        db.execSQL("insert into Serie values(3,'One Piece','Eiichirō Oda','Shūeisha','Aventure','Comedie');");
+        db.execSQL("insert into Serie values(3,'One Piece','Eiichirō Oda','Shūeisha','Action','Comedie');");
 
         /** AJOUT DE MATHILDE DANS LA BD **/
         db.execSQL("insert into Serie values(4,'Dragon Ball','Toriyama Akira','Shūeisha','Action','Comédie');");
@@ -88,16 +88,16 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
 
         // INSERTION TUPLE DANS LA TABLE MANGA
         // One Piece ( à insert tous les autres tomes )
-        db.execSQL("insert into Manga values(1,1,978-2723433358,3);");
-        db.execSQL("insert into Manga values(2,2,978-2723489898,3);");
+        db.execSQL("insert into Manga values(1,1,9782723433358,3);");
+        db.execSQL("insert into Manga values(2,2,9782723489898,3);");
 
         // JJBA
-        db.execSQL("insert into Manga values(101,1,978-2756061030,1);");
-        db.execSQL("insert into Manga values(102,2,978-2756061818,1);");
+        db.execSQL("insert into Manga values(101,1,9782756061030,1);");
+        db.execSQL("insert into Manga values(102,2,9782756061818,1);");
 
         // Lovely Complex
-        db.execSQL("insert into Manga values(201,1,978-2756005478,2);");
-        db.execSQL("insert into Manga values(202,2,978-2756006819,2);");
+        db.execSQL("insert into Manga values(201,1,9782756005478,2);");
+        db.execSQL("insert into Manga values(202,2,9782756006819,2);");
 
         // ABSENCE DES INSERT DE LA TABLE EstFavori car ces derniers doit,se faire de façon dynamique de même que les utilisateurs
 

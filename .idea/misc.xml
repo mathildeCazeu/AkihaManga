@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/activity_details_volume.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/activity_page_favori.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/activity_page_information.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/activity_page_recherche.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/activity_page_utilisateur.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/activity_recherche_en_ligne.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/activity_recherche_par_genre.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/activity_recherche_par_nom.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/geolocalisation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projets Git/AkihaManga/app/src/main/res/layout/layout_connexion.xml" value="0.36666666666666664" />
         <entry key="..\:/Projets Git/AkihaManga2/app/src/main/res/layout/activity_details_volume.xml" value="0.25" />
         <entry key="..\:/Projets Git/AkihaManga2/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Projets Git/AkihaManga2/app/src/main/res/layout/activity_page_favori.xml" value="0.33" />

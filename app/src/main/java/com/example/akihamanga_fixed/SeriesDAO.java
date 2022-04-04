@@ -6,7 +6,7 @@ import android.database.Cursor;
 import java.util.ArrayList;
 
 public class SeriesDAO {
-    private static String base = "BD2.0";
+    private static String base = "BD4.0";
     private static int version = 1;
     private BdSQLiteOpenHelper accesBD;
 
@@ -28,6 +28,14 @@ public class SeriesDAO {
         String requete = "select * from Serie where genre1='"+genre+"' or genre2='"+genre+"';";
         curseur = accesBD.getReadableDatabase().rawQuery(requete, null);
         return cursorToSeriesArrayList(curseur);
+    }
+
+    // RETOURNE LA SERIE SELON L'IDENTIFIANT
+    public Series getLaSerie(long id){
+        Cursor curseur;
+        String requete = "select * from Serie where idSerie="+id+";";
+        curseur = accesBD.getReadableDatabase().rawQuery(requete, null);
+        return cursorSerie(curseur);
     }
 
     // RETOURNE LES SERIES SELON LE TEXTE ENTRER DANS LA BARRE DE RECHERCHE AVEC UNE MARGE D'ERREUR D'UN SEULE CARACTERE ( ne teint pas en compte les majuscules )
@@ -68,6 +76,14 @@ public class SeriesDAO {
             curseur.moveToNext();
         }
         return listeSeries;
+    }
+
+    public Series cursorSerie(Cursor curseur){
+        curseur.moveToFirst();
+        Series laSerie;
+        laSerie = new Series(curseur.getLong(0),curseur.getString(1),curseur.getString(2),curseur.getString(3),curseur.getString(4),curseur.getString(5));
+
+        return laSerie;
     }
 
 }

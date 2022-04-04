@@ -6,7 +6,7 @@ import android.database.Cursor;
 import java.util.ArrayList;
 
 public class MangaDAO {
-    private static String base = "BD2.0";
+    private static String base = "BD4.0";
     private static int version = 1;
     private BdSQLiteOpenHelper accesBD;
 
@@ -19,7 +19,7 @@ public class MangaDAO {
     public ArrayList<Manga> getLesMangas(long idSerie) {
         Cursor curseur;
 
-        String requete = "select * from Manga m join Serie s on m.idSerie=s."+idSerie+";";
+        String requete = "select * from Manga m join Serie s on m.idSerie=s.idSerie where s.idSerie="+idSerie+";";
         curseur = accesBD.getReadableDatabase().rawQuery(requete, null);
 
         return cursorToMangaArrayList(curseur);
