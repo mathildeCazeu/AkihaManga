@@ -33,7 +33,8 @@ public class pageRecherche extends AppCompatActivity {
         b_annuler.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                et_rechercher.setText("");
+                Intent intent = new Intent(pageRecherche.this, MainActivity.class);
+                startActivity(intent);
             }
         });
 

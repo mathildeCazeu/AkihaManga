@@ -7,19 +7,27 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button b_seconnecter;
     private ImageView iv_recherche;
     private ImageView iv_favoris;
+    private Button b_inscription;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        /*b_inscription = (Button) findViewById(R.id.b_inscription);
+        b_inscription.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openInscription();
+            }
+        });*/
+
 
         iv_favoris = (ImageView) findViewById(R.id.iv_favoris);
         iv_favoris.setOnClickListener(new View.OnClickListener() {
@@ -55,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     //POPUP connexion
     public void openConnexion()
     {
-        dialogueBoutonConnexion dialogue = new dialogueBoutonConnexion();
+        /*dialogueBoutonConnexion dialogue = new dialogueBoutonConnexion();
         dialogue.show(getSupportFragmentManager(), "");
 
         // Initialisations
@@ -79,7 +87,15 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(demarre);
                     }
                 }
-            }
-        });
+            }*/
+        dialogueBoutonConnexion dialogue = new dialogueBoutonConnexion();
+        dialogue.show(getSupportFragmentManager(), "");
     }
+
+    public void openInscription()
+    {
+        dialogueBoutonInscrire dialogue = new dialogueBoutonInscrire();
+        dialogue.show(getSupportFragmentManager(), "");
+    }
+
 }

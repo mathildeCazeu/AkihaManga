@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
+            android:name="com.example.akihamanga_fixed.dialogueBoutonInscrire"
+            android:exported="false" />
+        <activity
             android:name="com.example.akihamanga_fixed.pageUtilisateur"
             android:exported="false" />
         <activity

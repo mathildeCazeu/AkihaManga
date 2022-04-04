@@ -2724,10 +2724,11 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id et_emailInscrire
 id et_password
+id et_pseudoInscrire
 id et_rechercher
 id et_rechercherNom
-id et_username
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3271,6 +3272,7 @@ layout design_text_input_start_icon
 layout geolocalisation
 layout geolocalisation_test
 layout layout_connexion
+layout layout_inscription
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3378,8 +3380,11 @@ string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
 string b_connecter
+string b_connecterInscrire
 string b_inscire
+string b_inscireInscrire
 string b_seconnecter
+string b_seconnecterInscrire
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string character_counter_content_description
@@ -3389,7 +3394,10 @@ string chip_text
 string clear_text_end_icon_content_description
 string error_icon_content_description
 string et_mdp
+string et_mdpInscrire
+string et_pseudo
 string et_username
+string et_usernameInscrire
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -3485,6 +3493,7 @@ string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
 string tv_bienvenue
+string tv_bienvenueInscrire
 string tv_mdpOublie
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

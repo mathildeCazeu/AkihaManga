@@ -5,16 +5,16 @@ import android.app.Dialog;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
-import androidx.annotation.LayoutRes;
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDialogFragment;
 
 public class dialogueBoutonConnexion extends AppCompatDialogFragment {
     private EditText et_username;
     private EditText et_mdp;
+    private Button b_inscription;
 
     public EditText getEt_username() {
         return (EditText) et_username.getText();
@@ -34,14 +34,17 @@ public class dialogueBoutonConnexion extends AppCompatDialogFragment {
 
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
+        super.onCreateDialog(savedInstanceState);
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         LayoutInflater inflater = getActivity().getLayoutInflater();
         View view = inflater.inflate(R.layout.layout_connexion, null);
 
-        et_username = view.findViewById(R.id.et_username);
+        b_inscription = view.findViewById(R.id.b_inscription);
+        et_username = view.findViewById(R.id.et_pseudoInscrire);
         et_mdp = view.findViewById(R.id.et_password);
         builder.setView(view);
         return builder.create();
+
 
 
     }

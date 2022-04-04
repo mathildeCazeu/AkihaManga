@@ -112,6 +112,10 @@
         "source": "D:\\Projets Git\\AkihaManga\\app\\src\\main\\res\\layout\\geolocalisation.xml"
     },
     {
+        "merged": "D:\\Projets Git\\AkihaManga\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_inscription.xml.flat",
+        "source": "D:\\Projets Git\\AkihaManga\\app\\src\\main\\res\\layout\\layout_inscription.xml"
+    },
+    {
         "merged": "D:\\Projets Git\\AkihaManga\\app\\build\\intermediates\\merged_res\\debug\\drawable_onepiecetome.png.flat",
         "source": "D:\\Projets Git\\AkihaManga\\app\\src\\main\\res\\drawable\\onepiecetome.png"
     },

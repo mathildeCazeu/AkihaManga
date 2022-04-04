@@ -7,4 +7,13 @@
     <string name="et_username">Adresse email ou identifiant</string>
     <string name="et_mdp">Mot de passe</string>
     <string name="tv_mdpOublie">Mot de passe oublié ?</string>
+
+    <string name="b_seconnecterInscrire">Se connecter</string>
+    <string name="tv_bienvenueInscrire">Bienvenue sur AkihaManga !</string>
+    <string name="b_inscireInscrire">S\'inscrire</string>
+    <string name="b_connecterInscrire">Se connecter</string>
+    <string name="et_usernameInscrire">Adresse email ou identifiant</string>
+    <string name="et_mdpInscrire">Mot de passe</string>
+    <string name="et_pseudo">Identifiant</string>
+
 </resources>

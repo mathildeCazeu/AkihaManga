@@ -2723,10 +2723,11 @@ int id end 0x7f0800b8
 int id endToStart 0x7f0800b9
 int id enterAlways 0x7f0800ba
 int id enterAlwaysCollapsed 0x7f0800bb
+int id et_emailInscrire 0x7f080281
 int id et_password 0x7f0800bc
+int id et_pseudoInscrire 0x7f080283
 int id et_rechercher 0x7f0800bd
 int id et_rechercherNom 0x7f0800be
-int id et_username 0x7f0800bf
 int id exitUntilCollapsed 0x7f0800c0
 int id expand_activities_button 0x7f0800c1
 int id expanded_menu 0x7f0800c2
@@ -3270,6 +3271,7 @@ int layout design_text_input_start_icon 0x7f0b0033
 int layout geolocalisation 0x7f0b0034
 int layout geolocalisation_test 0x7f0b0035
 int layout layout_connexion 0x7f0b0036
+int layout layout_inscription 0x7f0b007f
 int layout m3_alert_dialog 0x7f0b0037
 int layout m3_alert_dialog_actions 0x7f0b0038
 int layout m3_alert_dialog_title 0x7f0b0039
@@ -3377,8 +3379,11 @@ int string androidx_startup 0x7f0f001b
 int string app_name 0x7f0f001c
 int string appbar_scrolling_view_behavior 0x7f0f001d
 int string b_connecter 0x7f0f001e
+int string b_connecterInscrire 0x7f0f008b
 int string b_inscire 0x7f0f001f
+int string b_inscireInscrire 0x7f0f008c
 int string b_seconnecter 0x7f0f0020
+int string b_seconnecterInscrire 0x7f0f008d
 int string bottom_sheet_behavior 0x7f0f0021
 int string bottomsheet_action_expand_halfway 0x7f0f0022
 int string character_counter_content_description 0x7f0f0023
@@ -3388,7 +3393,10 @@ int string chip_text 0x7f0f0026
 int string clear_text_end_icon_content_description 0x7f0f0027
 int string error_icon_content_description 0x7f0f0028
 int string et_mdp 0x7f0f0029
+int string et_mdpInscrire 0x7f0f008e
+int string et_pseudo 0x7f0f008f
 int string et_username 0x7f0f002a
+int string et_usernameInscrire 0x7f0f0090
 int string exposed_dropdown_menu_content_description 0x7f0f002b
 int string fab_transformation_scrim_behavior 0x7f0f002c
 int string fab_transformation_sheet_behavior 0x7f0f002d
@@ -3484,6 +3492,7 @@ int string path_password_strike_through 0x7f0f0086
 int string search_menu_title 0x7f0f0087
 int string status_bar_notification_info_overflow 0x7f0f0088
 int string tv_bienvenue 0x7f0f0089
+int string tv_bienvenueInscrire 0x7f0f0091
 int string tv_mdpOublie 0x7f0f008a
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
