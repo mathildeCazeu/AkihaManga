@@ -12,14 +12,14 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
     private String table_utilisateur = "create table Utilisateur ("+"email TEXT PRIMARY KEY,"+"nom TEXT NOT NULL,"+"prenom TEXT NOT NULL,"
             +"motDePasse TEXT NOT NULL,"+"estAdmin INTEGER);";
 
-    private String table_boutique = "create table Boutique ("+"idBoutique INTEGER PRIMARY KEY,"+"nom TEXT NOT NULL,"+"adresse TEXT NOT NULL);";
+    private String table_boutique = "create table Boutique ("+"idBoutique INTEGER PRIMARY KEY,"+"nom TEXT NOT NULL,"+"latitute INTEGER NOT NULL,"+"longitude INTEGER NOT NULL);";
 
     private String table_siteInternet = "create table SiteInternet ("+"idSite INTEGER PRIMARY KEY,"+"nomSite TEXT NOT NULL,"+"url TEXT NOT NULL);";
 
     private String table_serie = "create table Serie ("+"idSerie INTEGER PRIMARY KEY,"+"nomSerie TEXT NOT NULL,"+"auteur TEXT NOT NULL,"
             +"editeur TEXT NOT NULL,"+"genre1 TEXT NOT NULL,"+"genre2 TEXT NOT NULL);";
 
-    private String table_manga = "create table Manga ("+"idManga INTEGER PRIMARY KEY,"+"numeroVolume INTEGER NOT NULL,"+"EAN TEXT NOT NULL,"
+    private String table_manga = "create table Manga ("+"idManga INTEGER PRIMARY KEY,"+"numeroVolume TEXT NOT NULL,"+"EAN TEXT NOT NULL,"
             +"idSerie INTEGER NOT NULL,"
             +"FOREIGN KEY (idSerie) references Serie (idSerie));";
 
@@ -27,10 +27,10 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
     private String table_estFavori = "create table EstFavori ("+"idSerie INTEGER,"+"email TEXT,"+"PRIMARY KEY (idSerie, email),"
             +"FOREIGN KEY (idSerie) REFERENCES Serie (idSerie),"+"FOREIGN KEY (email) REFERENCES Utilisateur (email));";
 
-    private String table_estLocaliser = "create table EstLocaliser ("+"idManga INTEGER,"+"idBoutique INTEGER,"+"PRIMARY KEY (idManga, idBoutique),"
+    private String getTable_estDispoPhysique = "create table EstDispoPhysique ("+"idManga INTEGER,"+"idBoutique INTEGER,"+"PRIMARY KEY (idManga, idBoutique),"
             +"FOREIGN KEY (idManga) REFERENCES Manga (idManga),"+"FOREIGN KEY (idBoutique) REFERENCES Boutique (idBoutique));";
 
-    private String table_estDisponible = "create table EstDisponible ("+"idManga INTEGER,"+"idSite INTEGER,"+"PRIMARY KEY (idManga, idSite),"
+    private String table_estDispoEnLigne = "create table EstDispoEnLigne ("+"idManga INTEGER,"+"idSite INTEGER,"+"PRIMARY KEY (idManga, idSite),"
             +"FOREIGN KEY (idManga) REFERENCES Manga (idManga),"+"FOREIGN KEY (idSite) REFERENCES SiteInternet (idSite));";
 
     @Override
@@ -42,8 +42,8 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
         db.execSQL(table_serie);
         db.execSQL(table_manga);
         db.execSQL(table_estFavori);
-        db.execSQL(table_estLocaliser);
-        db.execSQL(table_estDisponible);
+        db.execSQL(table_estDispoEnLigne);
+        db.execSQL(getTable_estDispoPhysique);
 
         // INSERTION TUPLES DANS LA TABLE Utilisateur
         db.execSQL("insert into Utilisateur values('enzof2003@gmail.com','Flamand','Enzo','enzof2003',1);");
@@ -54,9 +54,9 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
 
 
         // INSERTION TUPLES DANS LA TABLE Boutique
-        db.execSQL("insert into Boutique values(1,'FnacBayonne','42 AV Maréchal Soult, 64100 Bayonne');");
-        db.execSQL("insert into Boutique values(2,'Librairie Gribouille','11 Rue Poissonnerie, 64100 Bayonne');");
-        db.execSQL("insert into Boutique values(3,'Cultura Amentzendo','2-4 Av. du Portou, 64990 Saint-Pierre-d Irube');");
+        db.execSQL("insert into Boutique values(1,'FnacBayonne',43.486612,-1.490712);");
+        db.execSQL("insert into Boutique values(2,'Librairie Gribouille',43.489706,-1.475897);");
+        db.execSQL("insert into Boutique values(3,'Cultura Amentzendo',43.480692,-1.443639);");
 
         // INSERTION TUPLES DANS LA TABLE SiteInternet
         db.execSQL("insert into SiteInternet values(1,'Fnac','https://www.fnac.com/');");
@@ -68,46 +68,47 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
         db.execSQL("insert into Serie values(2,'Lovely Complex','Aya Nakahara','Shūeisha','Romance','Comedie');");
         db.execSQL("insert into Serie values(3,'One Piece','Eiichirō Oda','Shūeisha','Aventure','Comedie');");
 
+
         // INSERTION TUPLE DANS LA TABLE MANGA
         // One Piece ( à insert tous les autres tomes )
-        db.execSQL("insert into Manga values(1,1,'9782723433358',3);");
-        db.execSQL("insert into Manga values(2,2,'9782723489898',3);");
+        db.execSQL("insert into Manga values(1,1,978-2723433358,3);");
+        db.execSQL("insert into Manga values(2,2,978-2723489898,3);");
 
         // JJBA
-        db.execSQL("insert into Manga values(101,1,'9782756061030',1);");
-        db.execSQL("insert into Manga values(102,2,'9782756061818',1);");
+        db.execSQL("insert into Manga values(101,1,978-2756061030,1);");
+        db.execSQL("insert into Manga values(102,2,978-2756061818,1);");
 
         // Lovely Complex
-        db.execSQL("insert into Manga values(201,1,'9782756005478',2);");
-        db.execSQL("insert into Manga values(202,2,'9782756006819',2);");
+        db.execSQL("insert into Manga values(201,1,978-2756005478,2);");
+        db.execSQL("insert into Manga values(202,2,978-2756006819,2);");
 
         // ABSENCE DES INSERT DE LA TABLE EstFavori car ces derniers doit,se faire de façon dynamique de même que les utilisateurs
 
-        // INSERTION TUPLE DANS LA TABLE EstLocaliser
+        // INSERTION TUPLE DANS LA TABLE EstDispoPhysique
         // Lovely Complex T01 dans la boutique FnacBayonne
-        db.execSQL("insert into EstLocaliser values(201,1);");
+        db.execSQL("insert into EstDispoPhysique values(201,1);");
         // JJBA T02 dans la boutique Librairie Gribouille
-        db.execSQL("insert into EstLocaliser values(102,2);");
+        db.execSQL("insert into EstDispoPhysique values(102,2);");
 
-        // INSERTION TUPLE DANS LA TABLE EstDisponible
+        // INSERTION TUPLE DANS LA TABLE EstDispoEnLigne
         // Lovely Complex T01 sur le site fnac / amazon / cultura
-        db.execSQL("insert into EstLocaliser values(201,1);");
-        db.execSQL("insert into EstLocaliser values(201,2);");
-        db.execSQL("insert into EstLocaliser values(201,3);");
+        db.execSQL("insert into EstDispoEnLigne values(201,1);");
+        db.execSQL("insert into EstDispoEnLigne values(201,2);");
+        db.execSQL("insert into EstDispoEnLigne values(201,3);");
         // JJBA T01/T02 sur le site fnac / amazon / cultura
-        db.execSQL("insert into EstLocaliser values(101,1);");
-        db.execSQL("insert into EstLocaliser values(101,2);");
-        db.execSQL("insert into EstLocaliser values(101,3);");
-        db.execSQL("insert into EstLocaliser values(102,1);");
-        db.execSQL("insert into EstLocaliser values(102,2);");
-        db.execSQL("insert into EstLocaliser values(102,3);");
+        db.execSQL("insert into EstDispoEnLigne values(101,1);");
+        db.execSQL("insert into EstDispoEnLigne values(101,2);");
+        db.execSQL("insert into EstDispoEnLigne values(101,3);");
+        db.execSQL("insert into EstDispoEnLigne values(102,1);");
+        db.execSQL("insert into EstDispoEnLigne values(102,2);");
+        db.execSQL("insert into EstDispoEnLigne values(102,3);");
         // One Piece T01 sur le site fnac
-        db.execSQL("insert into EstLocaliser values(1,1);");
+        db.execSQL("insert into EstDispoEnLigne values(1,1);");
         // One Piece T01/T02 sur le site Amazon
-        db.execSQL("insert into EstLocaliser values(1,2);");
-        db.execSQL("insert into EstLocaliser values(2,2);");
+        db.execSQL("insert into EstDispoEnLigne values(1,2);");
+        db.execSQL("insert into EstDispoEnLigne values(2,2);");
         // One Piece T02 sur le site Cultura
-        db.execSQL("insert into EstLocaliser values(1,3);");
+        db.execSQL("insert into EstDispoEnLigne values(1,3);");
     }
 
     @Override

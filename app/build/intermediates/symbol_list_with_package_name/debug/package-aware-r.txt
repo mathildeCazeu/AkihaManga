@@ -2480,6 +2480,7 @@ drawable logo_action
 drawable logo_drame
 drawable logo_fantaisie
 drawable logo_horreur
+drawable logo_resized
 drawable logo_romance
 drawable logo_sport
 drawable m3_appbar_background
@@ -2724,6 +2725,7 @@ id enterAlways
 id enterAlwaysCollapsed
 id et_password
 id et_rechercher
+id et_rechercherNom
 id et_username
 id exitUntilCollapsed
 id expand_activities_button
@@ -2786,11 +2788,9 @@ id imageView29
 id imageView3
 id imageView30
 id imageView31
-id imageView32
 id imageView33
 id imageView34
 id imageView35
-id imageView36
 id imageView4
 id imageView5
 id imageView6
@@ -2811,6 +2811,8 @@ id item_touch_helper_previous_elevation
 id iv_action
 id iv_drame
 id iv_fantaisie
+id iv_favoris
+id iv_home
 id iv_horreur
 id iv_romance
 id iv_sport
@@ -2831,6 +2833,7 @@ id ll_categorie
 id ll_deuxiemeLigneLabel
 id ll_deuxiemeLignePicto
 id ll_headerRecherche
+id ll_listeSerie
 id ll_main
 id ll_premiereLigneLabel
 id ll_premiereLignePicto
@@ -3135,6 +3138,7 @@ id tv_lat
 id tv_lbladdress
 id tv_lon
 id tv_mdpOublie
+id tv_nombreResultat
 id tv_romance
 id tv_sensor
 id tv_speed
@@ -3253,6 +3257,7 @@ layout activity_page_favori
 layout activity_page_information
 layout activity_page_recherche
 layout activity_recherche_en_ligne
+layout activity_recherche_par_genre
 layout activity_recherche_par_nom
 layout custom_dialog
 layout design_bottom_navigation_item

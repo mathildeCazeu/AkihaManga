@@ -36,5 +36,9 @@
         <activity
             android:name=".pageFavori"
             android:exported="false" />
+
+        <activity android:name=".rechercheParGenre"
+            android:exported="false" />
+
     </application>
 </manifest>

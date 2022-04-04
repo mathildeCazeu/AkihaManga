@@ -45,6 +45,9 @@
         <activity
             android:name="com.example.akihamanga_fixed.pageFavori"
             android:exported="false" />
+        <activity
+            android:name="com.example.akihamanga_fixed.rechercheParGenre"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

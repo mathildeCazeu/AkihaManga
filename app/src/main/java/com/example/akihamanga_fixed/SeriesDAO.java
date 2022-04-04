@@ -22,19 +22,10 @@ public class SeriesDAO {
         return cursorToSeriesArrayList(curseur);
     }
 
-    // RETOURNE LES SERIES SELON LE PREMIER GENRE
-    public ArrayList<Series> getLesSeriesParPremierGenre(String genre1){
+    // RETOURNE LES SERIES SELON LE GENRE
+    public ArrayList<Series> getLesSeriesParGenre(String genre){
         Cursor curseur;
-        String requete = "select * from Serie where genre1='"+genre1+"';";
-        curseur = accesBD.getReadableDatabase().rawQuery(requete, null);
-        return cursorToSeriesArrayList(curseur);
-    }
-
-
-    // RETOURNE LES SERIES SELON LE PREMIER ET SECOND GENRE
-    public ArrayList<Series> getLesSeriesParGenres(String genre1,String genre2){
-        Cursor curseur;
-        String requete = "select * from Serie where genre1='"+genre1+"' and genre2='"+genre2+"';";
+        String requete = "select * from Serie where genre1='"+genre+"' or genre2='"+genre+"';";
         curseur = accesBD.getReadableDatabase().rawQuery(requete, null);
         return cursorToSeriesArrayList(curseur);
     }
