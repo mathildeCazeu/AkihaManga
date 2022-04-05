@@ -2635,8 +2635,13 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id b_ajouterFavorie
+id b_allerSiteAmazon
+id b_allerSiteFnac
+id b_allerSiteMomoxshop
 id b_annuler
+id b_chercherEnLigne
 id b_inscription
+id b_localiserBoutique
 id b_seconnecter
 id barrier
 id baseline
@@ -2649,11 +2654,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button2
-id button3
-id button4
-id button5
-id button6
 id buttonPanel
 id cache_measures
 id callMeasure

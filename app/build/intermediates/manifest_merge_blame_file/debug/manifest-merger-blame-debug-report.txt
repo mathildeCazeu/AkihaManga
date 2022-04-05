@@ -6,103 +6,103 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml
+8-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml
+9-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:6:5-67
-11-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:6:22-64
+11-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:8:5-52:19
+13-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:8:5-52:19
 14        android:allowBackup="true"
-14-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:9:9-35
+14-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:9:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 15-->[androidx.core:core:1.7.0] C:\Users\Tristan\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:10:9-43
+17-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:10:9-43
 18        android:label="@string/app_name"
-18-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:11:9-41
+18-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:11:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:12:9-54
+19-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
-20-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:13:9-35
+20-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:13:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.AppCompat.NoActionBar" >
-22-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:14:9-59
+22-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:14:9-59
 23        <activity
-23-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:15:9-18:45
+23-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:15:9-18:45
 24            android:name="com.example.akihamanga_fixed.dialogueBoutonInscrire"
-24-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:16:13-51
+24-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:16:13-51
 25            android:exported="false" />
-25-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:17:13-37
+25-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:17:13-37
 26        <activity
-26-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:19:9-21:40
+26-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:19:9-21:40
 27            android:name="com.example.akihamanga_fixed.pageUtilisateur"
-27-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:20:13-44
+27-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:20:13-44
 28            android:exported="false" />
-28-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:21:13-37
+28-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:21:13-37
 29        <activity
-29-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:22:9-30:20
+29-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:22:9-30:20
 30            android:name="com.example.akihamanga_fixed.MainActivity"
-30-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:23:13-41
+30-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:23:13-41
 31            android:exported="true" >
-31-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:24:13-36
+31-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:24:13-36
 32            <intent-filter>
-32-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:25:13-29:29
+32-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:25:13-29:29
 33                <action android:name="android.intent.action.MAIN" />
-33-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:26:17-69
-33-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:26:25-66
+33-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:26:17-69
+33-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:26:25-66
 34
 35                <category android:name="android.intent.category.LAUNCHER" />
-35-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:28:17-77
-35-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:28:27-74
+35-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:28:17-77
+35-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:28:27-74
 36            </intent-filter>
 37        </activity>
 38        <activity
-38-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:31:9-33:40
+38-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:31:9-33:40
 39            android:name="com.example.akihamanga_fixed.recherche_par_nom"
-39-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:32:13-46
+39-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:32:13-46
 40            android:exported="false" />
-40-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:33:13-37
+40-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:33:13-37
 41        <activity
-41-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:34:9-36:40
+41-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:34:9-36:40
 42            android:name="com.example.akihamanga_fixed.recherche_en_ligne"
-42-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:35:13-47
+42-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:35:13-47
 43            android:exported="false" />
-43-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:36:13-37
+43-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:36:13-37
 44        <activity
-44-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:37:9-39:40
+44-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:37:9-39:40
 45            android:name="com.example.akihamanga_fixed.detailsVolume"
-45-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:38:13-42
+45-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:38:13-42
 46            android:exported="false" />
-46-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:39:13-37
+46-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:39:13-37
 47        <activity
-47-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:40:9-42:40
+47-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:40:9-42:40
 48            android:name="com.example.akihamanga_fixed.pageInformation"
-48-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:41:13-44
+48-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:41:13-44
 49            android:exported="false" />
-49-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:42:13-37
+49-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:42:13-37
 50        <activity
-50-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:43:9-45:40
+50-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:43:9-45:40
 51            android:name="com.example.akihamanga_fixed.pageRecherche"
-51-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:44:13-42
+51-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:44:13-42
 52            android:exported="false" />
-52-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:45:13-37
+52-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:45:13-37
 53        <activity
-53-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:46:9-48:40
+53-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:46:9-48:40
 54            android:name="com.example.akihamanga_fixed.pageFavori"
-54-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:47:13-39
+54-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:47:13-39
 55            android:exported="false" />
-55-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:48:13-37
+55-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:48:13-37
 56        <activity
-56-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:49:9-51:40
+56-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:49:9-51:40
 57            android:name="com.example.akihamanga_fixed.rechercheParGenre"
-57-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:50:13-46
+57-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:50:13-46
 58            android:exported="false" />
-58-->D:\Projets Git\AkihaManga\app\src\main\AndroidManifest.xml:51:13-37
+58-->D:\Projets Git\AkihaManga2\app\src\main\AndroidManifest.xml:51:13-37
 59
 60        <provider
 60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tristan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20

@@ -109,7 +109,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/b_allerSiteAmazon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
@@ -178,7 +178,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button5"
+                        android:id="@+id/b_allerSiteFnac"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
@@ -245,7 +245,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button6"
+                        android:id="@+id/b_allerSiteMomoxshop"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
