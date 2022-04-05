@@ -60,7 +60,7 @@ public class pageInformation extends AppCompatActivity {
     }
 
     public void initPageInformation() {
-        final Intent demarre = new Intent(getApplicationContext(), recherche_en_ligne.class);
+        final Intent demarre = new Intent(getApplicationContext(), detailsVolume.class);
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {

@@ -2457,9 +2457,14 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dragonballtome1
+drawable fairytailtome1
 drawable favorislogo
+drawable fmatome1
 drawable fnaclogo
+drawable haikyutome1
 drawable homelogo
+drawable hxhtome1
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2472,9 +2477,11 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable jojopart1tome
+drawable jojopart1tome2
 drawable jojopart2tome
 drawable jojopart3tome
 drawable jojopart4tome
+drawable jujutsukaisentome1
 drawable logo
 drawable logo_action
 drawable logo_drame
@@ -2483,6 +2490,7 @@ drawable logo_horreur
 drawable logo_resized
 drawable logo_romance
 drawable logo_sport
+drawable lovelycomplextome1
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2502,6 +2510,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable mhatome1
 drawable momoxshoplogo
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
@@ -2513,6 +2522,7 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
+drawable narutotome1
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -2527,6 +2537,8 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable onepiecetome
+drawable onepiecetome2
+drawable princetennistome
 drawable recherche
 drawable rectangle
 drawable rounded_button
