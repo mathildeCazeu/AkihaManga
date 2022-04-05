@@ -163,6 +163,7 @@ id tv_lbladdress
 id tv_lon
 id tv_mdpOublie
 id tv_nomSerie
+id tv_nomUtilisateur
 id tv_nombreManga
 id tv_nombreResultat
 id tv_nombreResultatParNom

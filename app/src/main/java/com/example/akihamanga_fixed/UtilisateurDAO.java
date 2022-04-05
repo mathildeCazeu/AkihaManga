@@ -6,7 +6,7 @@ import android.database.Cursor;
 import java.util.ArrayList;
 
 public class UtilisateurDAO {
-    private static String base = "BD5.0";
+    private static String base = "BD6.0";
     private static int version = 1;
     private BdSQLiteOpenHelper accesBD;
 
@@ -33,7 +33,7 @@ public class UtilisateurDAO {
         Utilisateur user=null;
         Cursor curseur;
 
-        curseur = accesBD.getReadableDatabase().rawQuery("select * from Utilisateur where email="+email+";",null);
+        curseur = accesBD.getReadableDatabase().rawQuery("select * from Utilisateur where email='"+email+"';",null);
         if (curseur.getCount()>0){
             curseur.moveToFirst();
             user=new Utilisateur(curseur.getString(0), curseur.getString(1), curseur.getString(2), curseur.getString(3), curseur.getInt(4) );

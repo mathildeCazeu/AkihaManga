@@ -48,7 +48,7 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
         // INSERTION TUPLES DANS LA TABLE Utilisateur
         db.execSQL("insert into Utilisateur values('enzof2003@gmail.com','Flamand','Enzo','enzof2003',1);");
         db.execSQL("insert into Utilisateur values('madiane.gonnel@gmail.com','Gonnel','Madiane','madiane.gonnel',1);");
-        db.execSQL("insert into Utilisateur values('tristangoncalves@gmail.com','Goncalves','Tristan','tristangoncalves',1);");
+        db.execSQL("insert into Utilisateur values('tristan.goncalves25@gmail.com','Goncalves','Tristan','tristan.goncalves25',1);");
         db.execSQL("insert into Utilisateur values('mathildecazenave1@gmail.com','Cazenave','Mathilde','mathildecazenave1',1);");
         db.execSQL("insert into Utilisateur values('random@gmail.com','Random','Xamier','random',0);");
 

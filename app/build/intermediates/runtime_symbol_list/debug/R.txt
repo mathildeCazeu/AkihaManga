@@ -3113,6 +3113,7 @@ int id tv_lbladdress 0x7f080233
 int id tv_lon 0x7f080234
 int id tv_mdpOublie 0x7f080235
 int id tv_nomSerie 0x7f080236
+int id tv_nomUtilisateur 0x7f08025c
 int id tv_nombreManga 0x7f080237
 int id tv_nombreResultat 0x7f080238
 int id tv_nombreResultatParNom 0x7f080239

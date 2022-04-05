@@ -5,7 +5,7 @@ import android.database.Cursor;
 
 public class EstFavoriDAO {
 
-        private static String base = "BD5.0";
+        private static String base = "BD6.0";
         private static int version = 1;
         private BdSQLiteOpenHelper accesBD;
 

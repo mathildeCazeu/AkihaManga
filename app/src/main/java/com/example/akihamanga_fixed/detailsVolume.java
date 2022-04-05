@@ -23,7 +23,7 @@ public class detailsVolume extends AppCompatActivity {
         iv_home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(detailsVolume.this, MainActivity.class);
+                Intent intent = new Intent(detailsVolume.this, pageUtilisateur.class);
                 startActivity(intent);
             }
         });

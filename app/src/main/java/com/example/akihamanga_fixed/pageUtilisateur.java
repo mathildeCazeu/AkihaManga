@@ -18,6 +18,10 @@ public class pageUtilisateur extends AppCompatActivity {
     private ImageView iv_recherche;
     private SeriesDAO serie;
     private LinearLayout ll_listeSeriesFavorites;
+    private ImageView iv_home;
+    private ImageView iv_favoris;
+    private TextView tv_nomUtilisateur;
+    private UtilisateurDAO user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,7 @@ public class pageUtilisateur extends AppCompatActivity {
         ll_listeSeriesFavorites=findViewById(R.id.ll_listeSeriesFavoris);
 
         serie=new SeriesDAO(this);
+        user= new UtilisateurDAO(this);
 
         String email;
 
@@ -35,6 +40,29 @@ public class pageUtilisateur extends AppCompatActivity {
         email = extras.getString("utilisateurEmail");
 
         // FONCTIONS
+
+        iv_home = (ImageView) findViewById(R.id.iv_home);
+        iv_home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(pageUtilisateur.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        iv_favoris = (ImageView) findViewById(R.id.iv_favoris);
+        iv_favoris.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(pageUtilisateur.this, pageFavori.class);
+                startActivity(intent);
+            }
+        });
+
+        tv_nomUtilisateur = (TextView) findViewById(R.id.tv_nomUtilisateur);
+        tv_nomUtilisateur.setText(user.getUtilisateur(email).getPrenom().toString());
+
+
         iv_recherche = (ImageView) findViewById(R.id.imageView26); //Appel de l'image view 26 -> image de loupe
         iv_recherche.setOnClickListener(new View.OnClickListener()
         {
