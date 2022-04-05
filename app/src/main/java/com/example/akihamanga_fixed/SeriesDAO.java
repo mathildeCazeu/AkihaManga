@@ -6,7 +6,7 @@ import android.database.Cursor;
 import java.util.ArrayList;
 
 public class SeriesDAO {
-    private static String base = "BD4.0";
+    private static String base = "BD5.0";
     private static int version = 1;
     private BdSQLiteOpenHelper accesBD;
 
@@ -15,7 +15,7 @@ public class SeriesDAO {
         this.accesBD = new BdSQLiteOpenHelper(ct, base, null, version);
     }
     // RETOURNE LES SERIES FAVORITES SELON L'email utilisateur ( son identifiant )
-    public ArrayList<Series> getLesSeriesFavorites(long email){
+    public ArrayList<Series> getLesSeriesFavorites(String email){
         Cursor curseur;
         String requete = "select * from Serie s join EstFavori eF on s.idSerie=eF.idSerie join Utilisateur u on eF.email='u."+email+"';";
         curseur = accesBD.getReadableDatabase().rawQuery(requete, null);

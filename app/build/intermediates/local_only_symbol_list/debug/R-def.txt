@@ -40,7 +40,6 @@ drawable rounded_button
 drawable snktome
 id b_ajouterFavorie
 id b_annuler
-id b_connection
 id b_inscription
 id b_seconnecter
 id button2
@@ -67,9 +66,6 @@ id imageView18
 id imageView19
 id imageView2
 id imageView20
-id imageView21
-id imageView22
-id imageView23
 id imageView26
 id imageView35
 id imageView7
@@ -91,6 +87,7 @@ id ll_deuxiemeLignePicto
 id ll_headerRecherche
 id ll_listeSerie
 id ll_listeSerieParNom
+id ll_listeSeriesFavoris
 id ll_main
 id ll_pageInformation
 id ll_premiereLigneLabel
@@ -129,9 +126,6 @@ id textView39
 id textView40
 id textView41
 id textView42
-id textView43
-id textView44
-id textView45
 id textView6
 id textView9
 id toolbar2

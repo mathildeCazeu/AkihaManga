@@ -126,6 +126,17 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
         db.execSQL("insert into EstDispoEnLigne values(2,2);");
         // One Piece T02 sur le site Cultura
         db.execSQL("insert into EstDispoEnLigne values(1,3);");
+
+        // INSERTION DANS LA TABLE FAVORIS
+        db.execSQL("insert into EstFavori values(1,'enzof2003@gmail.com');");
+        db.execSQL("insert into EstFavori values(4,'enzof2003@gmail.com');");
+        db.execSQL("insert into EstFavori values(5,'enzof2003@gmail.com');");
+        db.execSQL("insert into EstFavori values(7,'enzof2003@gmail.com');");
+
+        db.execSQL("insert into EstFavori values(1,'madiane.gonnel@gmail.com');");
+
+        db.execSQL("insert into EstFavori values(4,'tristangoncalves@gmail.com');");
+        db.execSQL("insert into EstFavori values(2,'tristangoncalves@gmail.com');");
     }
 
     @Override
