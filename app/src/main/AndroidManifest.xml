@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.akihamanga_fixed">
 
+    <!-- PERMISSIONS POUR UTILISER LES FONCTIONNALITES DE LOCALISATION -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -44,11 +47,19 @@
             android:name=".pageRecherche"
             android:exported="false" />
         <activity
+            android:name=".geolocalisation"
+            android:exported="false" />
+        <activity
             android:name=".pageFavori"
             android:exported="false" />
         <activity
             android:name=".rechercheParGenre"
             android:exported="false" />
+
+        <!-- clé d'autorisation à l'api google -->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBsDaWw7012Wh33bcMz_n4T32sfm4zt6vA"/>
+
     </application>
 
 </manifest>

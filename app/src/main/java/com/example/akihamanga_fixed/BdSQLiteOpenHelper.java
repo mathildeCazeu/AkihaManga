@@ -12,15 +12,14 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
     private String table_utilisateur = "create table Utilisateur ("+"email TEXT PRIMARY KEY,"+"nom TEXT NOT NULL,"+"prenom TEXT NOT NULL,"
             +"motDePasse TEXT NOT NULL,"+"estAdmin INTEGER);";
 
-    private String table_boutique = "create table Boutique ("+"idBoutique INTEGER PRIMARY KEY,"+"nom TEXT NOT NULL,"+"latitute INTEGER NOT NULL,"+"longitude INTEGER NOT NULL);";
+    private String table_boutique = "create table Boutique ("+"idBoutique INTEGER PRIMARY KEY,"+"nom TEXT NOT NULL,"+"latitute DOUBLE NOT NULL,"+"longitude DOUBLE NOT NULL);";
 
     private String table_siteInternet = "create table SiteInternet ("+"idSite INTEGER PRIMARY KEY,"+"nomSite TEXT NOT NULL,"+"url TEXT NOT NULL);";
 
     private String table_serie = "create table Serie ("+"idSerie INTEGER PRIMARY KEY,"+"nomSerie TEXT NOT NULL,"+"auteur TEXT NOT NULL,"
-            +"editeur TEXT NOT NULL,"+"genre1 TEXT NOT NULL,"+"genre2 TEXT NOT NULL);";
+            +"editeur TEXT NOT NULL,"+"genre1 TEXT NOT NULL,"+"genre2 TEXT NOT NULL,"+"couverture TEXT NOT NULL);";
 
-    private String table_manga = "create table Manga ("+"idManga INTEGER PRIMARY KEY,"+"numeroVolume TEXT NOT NULL,"+"EAN TEXT NOT NULL,"
-            +"idSerie INTEGER NOT NULL,"
+    private String table_manga = "create table Manga ("+"idManga INTEGER PRIMARY KEY,"+"numeroVolume TEXT NOT NULL,"+"EAN TEXT NOT NULL,"+"couverture TEXT NOT NULL," +"idSerie INTEGER NOT NULL,"
             +"FOREIGN KEY (idSerie) references Serie (idSerie));";
 
     // TABLE D'ASSOCIATION
@@ -48,7 +47,7 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
         // INSERTION TUPLES DANS LA TABLE Utilisateur
         db.execSQL("insert into Utilisateur values('enzof2003@gmail.com','Flamand','Enzo','enzof2003',1);");
         db.execSQL("insert into Utilisateur values('madiane.gonnel@gmail.com','Gonnel','Madiane','madiane.gonnel',1);");
-        db.execSQL("insert into Utilisateur values('tristan.goncalves25@gmail.com','Goncalves','Tristan','tristan.goncalves25',1);");
+        db.execSQL("insert into Utilisateur values('tristangoncalves@gmail.com','Goncalves','Tristan','tristangoncalves',1);");
         db.execSQL("insert into Utilisateur values('mathildecazenave1@gmail.com','Cazenave','Mathilde','mathildecazenave1',1);");
         db.execSQL("insert into Utilisateur values('random@gmail.com','Random','Xamier','random',0);");
 
@@ -64,22 +63,22 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
         db.execSQL("insert into SiteInternet values(3,'Cultura','https://www.cultura.com/');");
 
         // INSERTION TUPLE DANS LA TABLE SERIE
-        db.execSQL("insert into Serie values(1,'JoJos Bizarre Adventure','Hirohiko Araki','Shūeisha','Action','Drame');");
-        db.execSQL("insert into Serie values(2,'Lovely Complex','Aya Nakahara','Shūeisha','Romance','Comedie');");
-        db.execSQL("insert into Serie values(3,'One Piece','Eiichirō Oda','Shūeisha','Action','Comedie');");
+        db.execSQL("insert into Serie values(1,'JoJos Bizarre Adventure','Hirohiko Araki','Shūeisha','Action','Drame','jojopart1tome');");
+        db.execSQL("insert into Serie values(2,'Lovely Complex','Aya Nakahara','Shūeisha','Romance','Comedie','lovelycomplextome1');");
+        db.execSQL("insert into Serie values(3,'One Piece','Eiichirō Oda','Shūeisha','Action','Comedie','onepiecetome');");
 
         /** AJOUT DE MATHILDE DANS LA BD **/
-        db.execSQL("insert into Serie values(4,'Dragon Ball','Toriyama Akira','Shūeisha','Action','Comédie');");
-        db.execSQL("insert into Serie values(5,'Naruto','Kishimoto Masashi','Shūeisha','Action','Comédie');");
-        db.execSQL("insert into Serie values(6,'Demon Slayer','Gotoge Koyoharu','Shūeisha','Action','Fantaisie');");
-        db.execSQL("insert into Serie values(7,'L attaque des Titans','Isayama Hajime','Kodansha','Action','Horreur');");
-        db.execSQL("insert into Serie values(8,'Fullmetal Alchemist','Arakawa Hiromu','Square Enix','Action','Drame');");
-        db.execSQL("insert into Serie values(9,'Hunter x Hunter','Togashi Yoshihiro','Shūeisha','Action','Fantaisie');");
-        db.execSQL("insert into Serie values(10,'Fairy Tail','Mashima Hiro','Kodansha','Action','Fantaisie');");
-        db.execSQL("insert into Serie values(11,'My Hero Academia','Horikoshi Kohei','Shūeisha','Action','Fantaisie');");
-        db.execSQL("insert into Serie values(12,'Prince du Tennis','Konomi Takeshi','Shūeisha','Sport','Action');");
-        db.execSQL("insert into Serie values(13,'Jujutsu Kaisen','Akutami Gege','Shūeisha','Action','Drame');");
-        db.execSQL("insert into Serie values(14,'Haikyu!!','Furudate Haruichi','Shūeisha','Sport','Drame');");
+        db.execSQL("insert into Serie values(4,'Dragon Ball','Toriyama Akira','Shūeisha','Action','Comédie','dragonballtome1');");
+        db.execSQL("insert into Serie values(5,'Naruto','Kishimoto Masashi','Shūeisha','Action','Comédie','narutotome1');");
+        db.execSQL("insert into Serie values(6,'Demon Slayer','Gotoge Koyoharu','Shūeisha','Action','Fantaisie','demonslayertome');");
+        db.execSQL("insert into Serie values(7,'L attaque des Titans','Isayama Hajime','Kodansha','Action','Horreur','snktome');");
+        db.execSQL("insert into Serie values(8,'Fullmetal Alchemist','Arakawa Hiromu','Square Enix','Action','Drame','fmatome1');");
+        db.execSQL("insert into Serie values(9,'Hunter x Hunter','Togashi Yoshihiro','Shūeisha','Action','Fantaisie','hxhtome1');");
+        db.execSQL("insert into Serie values(10,'Fairy Tail','Mashima Hiro','Kodansha','Action','Fantaisie','fairytailtome1');");
+        db.execSQL("insert into Serie values(11,'My Hero Academia','Horikoshi Kohei','Shūeisha','Action','Fantaisie','mhatome1');");
+        db.execSQL("insert into Serie values(12,'Prince du Tennis','Konomi Takeshi','Shūeisha','Sport','Action','princetennistome');");
+        db.execSQL("insert into Serie values(13,'Jujutsu Kaisen','Akutami Gege','Shūeisha','Action','Drame','jujutsukaisentome1');");
+        db.execSQL("insert into Serie values(14,'Haikyu!!','Furudate Haruichi','Shūeisha','Sport','Drame','haikyutome1');");
 
 
 
@@ -88,16 +87,16 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
 
         // INSERTION TUPLE DANS LA TABLE MANGA
         // One Piece ( à insert tous les autres tomes )
-        db.execSQL("insert into Manga values(1,1,9782723433358,3);");
-        db.execSQL("insert into Manga values(2,2,9782723489898,3);");
+        db.execSQL("insert into Manga values(1,1,9782723433358,'onepiecetome',3);");
+        db.execSQL("insert into Manga values(2,2,9782723489898,'onepiecetome2',3);");
 
         // JJBA
-        db.execSQL("insert into Manga values(101,1,9782756061030,1);");
-        db.execSQL("insert into Manga values(102,2,9782756061818,1);");
+        db.execSQL("insert into Manga values(101,1,9782756061030,'jojopart1tome',1);");
+        db.execSQL("insert into Manga values(102,2,9782756061818,'jojopart1tome2',1);");
 
         // Lovely Complex
-        db.execSQL("insert into Manga values(201,1,9782756005478,2);");
-        db.execSQL("insert into Manga values(202,2,9782756006819,2);");
+        db.execSQL("insert into Manga values(201,1,9782756005478,'lovelycomplextome1',2);");
+        db.execSQL("insert into Manga values(202,2,9782756006819,'lovelycomplextome2',2);");
 
         // ABSENCE DES INSERT DE LA TABLE EstFavori car ces derniers doit,se faire de façon dynamique de même que les utilisateurs
 

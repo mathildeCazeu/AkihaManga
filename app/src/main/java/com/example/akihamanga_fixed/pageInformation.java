@@ -17,15 +17,20 @@ public class pageInformation extends AppCompatActivity {
 
     private ImageView iv_home, iv_favoris, iv_imageSerie;
     private TextView tv_nomSerie, tv_nombreManga, tv_genre1, tv_genre2, tv_synopsis;
-    private static long idSerie;
+    private long idSerie;
     private SeriesDAO serie;
     private MangaDAO mangas;
     private LinearLayout ll_listeManga;
-
+    //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_information);
+
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            idSerie = extras.getLong("identifiantSerie");
+        }
 
         serie = new SeriesDAO(this);
         mangas = new MangaDAO(this);
@@ -36,6 +41,10 @@ public class pageInformation extends AppCompatActivity {
         tv_genre1 = findViewById(R.id.tv_genre1);
         tv_genre2 = findViewById(R.id.tv_genre2);
         tv_synopsis = findViewById(R.id.tv_synopsis);
+
+        iv_imageSerie=findViewById(R.id.iv_imageSerie);
+        int res = getResources().getIdentifier(serie.getLaSerie(idSerie).getCouverture().toString(),"drawable",getPackageName());
+        iv_imageSerie.setImageResource(res);
 
         initPageInformation();
 
@@ -85,7 +94,8 @@ public class pageInformation extends AppCompatActivity {
         for (int i = 0; i < mangas.getLesMangas(idSerie).size(); i++) {
             // IMAGE DE LA SERIE
             imageManga = new ImageView(this);
-            imageManga.setImageResource(R.drawable.jojopart4tome);
+            int res = getResources().getIdentifier(mangas.getLesMangas(idSerie).get(i).getCouverture().toString(),"drawable",getPackageName());
+            imageManga.setImageResource(res);
             imageManga.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
 
             // INFORMATIONS DE LA SERIE
@@ -134,7 +144,10 @@ public class pageInformation extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     // ENVOI identifiant du film dans la base de données à l'activité reservation
-                    demarre.putExtra("identifiantManga", mangas.getLesMangas(idSerie).get(indexManga).getIdSerie());
+                    demarre.putExtra("nomSerie",serie.getLaSerie(idSerie).getNomSerie().toString());
+                    demarre.putExtra("nombreDeVolume",mangas.getLesMangas(idSerie).size());
+                    demarre.putExtra("numeroVolume", mangas.getLesMangas(idSerie).get(indexManga).getNumeroVolume());
+                    demarre.putExtra("couverture",res);
                     // DEMARRAGE de l'activité reservation
                     startActivity(demarre);
                 }

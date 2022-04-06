@@ -28,12 +28,12 @@
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\narutotome1.png"
     },
     {
-        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_jojopart4tome.png.flat",
@@ -44,24 +44,24 @@
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\layout\\layout_inscription.xml"
     },
     {
-        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recherche_par_genre.xml.flat",
-        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\layout\\activity_recherche_par_genre.xml"
-    },
-    {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_princetennistome.png.flat",
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\princetennistome.png"
+    },
+    {
+        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recherche_par_genre.xml.flat",
+        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\layout\\activity_recherche_par_genre.xml"
     },
     {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_resized.png.flat",
-        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\logo_resized.png"
-    },
-    {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_resized.png.flat",
+        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\logo_resized.png"
     },
     {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -80,12 +80,12 @@
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\layout_geolocalisation_test.xml.flat",
-        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\layout\\geolocalisation_test.xml"
-    },
-    {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_jojopart1tome.png.flat",
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\jojopart1tome.png"
+    },
+    {
+        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\layout_geolocalisation_test.xml.flat",
+        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\layout\\geolocalisation_test.xml"
     },
     {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
@@ -160,6 +160,10 @@
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\haikyutome1.png"
     },
     {
+        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_lovelycomplextome2.png.flat",
+        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\lovelycomplextome2.png"
+    },
+    {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_fantaisie.png.flat",
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\logo_fantaisie.png"
     },
@@ -172,16 +176,16 @@
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\mashup.png"
     },
     {
-        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_snktome.png.flat",
-        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\snktome.png"
+        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_jujutsukaisentome1.png.flat",
+        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\jujutsukaisentome1.png"
     },
     {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_page_recherche.xml.flat",
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\layout\\activity_page_recherche.xml"
     },
     {
-        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_jujutsukaisentome1.png.flat",
-        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\jujutsukaisentome1.png"
+        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_snktome.png.flat",
+        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\snktome.png"
     },
     {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\layout_geolocalisation.xml.flat",
@@ -252,12 +256,12 @@
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\onepiecetome2.png"
     },
     {
-        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_drame.png.flat",
-        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\logo_drame.png"
-    },
-    {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_sport.png.flat",
         "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\logo_sport.png"
+    },
+    {
+        "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_drame.png.flat",
+        "source": "D:\\Projets Git\\AkihaManga2\\app\\src\\main\\res\\drawable\\logo_drame.png"
     },
     {
         "merged": "D:\\Projets Git\\AkihaManga2\\app\\build\\intermediates\\merged_res\\debug\\drawable_fnaclogo.png.flat",

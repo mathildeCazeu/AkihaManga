@@ -6,10 +6,10 @@ import android.database.Cursor;
 import java.util.ArrayList;
 
 public class MangaDAO {
-    private static String base = "BD6 .0";
+    private static String base = "BD8.0";
     private static int version = 1;
     private BdSQLiteOpenHelper accesBD;
-
+    //
     public MangaDAO(Context ct) {
 
         this.accesBD = new BdSQLiteOpenHelper(ct, base, null, version);
@@ -30,6 +30,7 @@ public class MangaDAO {
         ArrayList<Manga> listeManga = new ArrayList<>();
         long idManga,idSerie;
         int numeroVolume,EAN;
+        String couverture;
 
 
         curseur.moveToFirst();
@@ -37,10 +38,11 @@ public class MangaDAO {
             idManga = curseur.getLong(0);
             numeroVolume = curseur.getInt(1);
             EAN = curseur.getInt(2);
-            idSerie = curseur.getLong(3);
+            couverture = curseur.getString(3);
+            idSerie = curseur.getLong(4);
 
 
-            listeManga.add(new Manga(idManga,numeroVolume,EAN,idSerie));
+            listeManga.add(new Manga(idManga,numeroVolume,EAN,couverture,idSerie));
             curseur.moveToNext();
         }
         return listeManga;

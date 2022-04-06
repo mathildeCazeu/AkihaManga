@@ -6,7 +6,7 @@ import android.database.Cursor;
 import java.util.ArrayList;
 
 public class SeriesDAO {
-    private static String base = "BD6.0";
+    private static String base = "BD8.0";
     private static int version = 1;
     private BdSQLiteOpenHelper accesBD;
 
@@ -60,6 +60,7 @@ public class SeriesDAO {
         String editeur;
         String genre1;
         String genre2;
+        String couverture;
 
 
         curseur.moveToFirst();
@@ -70,9 +71,10 @@ public class SeriesDAO {
             editeur = curseur.getString(3);
             genre1 = curseur.getString(4);
             genre2 = curseur.getString(5);
+            couverture = curseur.getString(6);
 
 
-            listeSeries.add(new Series(idSerie,nomSerie,auteur,editeur,genre1,genre2));
+            listeSeries.add(new Series(idSerie,nomSerie,auteur,editeur,genre1,genre2,couverture));
             curseur.moveToNext();
         }
         return listeSeries;
@@ -81,9 +83,19 @@ public class SeriesDAO {
     public Series cursorSerie(Cursor curseur){
         curseur.moveToFirst();
         Series laSerie;
-        laSerie = new Series(curseur.getLong(0),curseur.getString(1),curseur.getString(2),curseur.getString(3),curseur.getString(4),curseur.getString(5));
+
+        long idSerie = curseur.getLong(0);
+        String nomSerie = curseur.getString(1);
+        String auteur = curseur.getString(2);
+        String editeur = curseur.getString(3);
+        String genre1 = curseur.getString(4);
+        String genre2 = curseur.getString(5);
+        String couverture = curseur.getString(6);
+
+        laSerie = new Series(idSerie,nomSerie,auteur,editeur,genre1,genre2,couverture);
 
         return laSerie;
+        //
     }
 
 }

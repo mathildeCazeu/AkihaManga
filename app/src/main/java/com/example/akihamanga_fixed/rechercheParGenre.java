@@ -79,14 +79,15 @@ public class rechercheParGenre extends AppCompatActivity
 
         TextView nomSerie;
         TextView auteurSerie;
-
+//
         tv_nombreResultat.setText(Integer.toString(series.getLesSeriesParGenre(nomGenre).size())+" résultats");
 
         // PLACEMENT DES SERIES
         for (int i = 0 ; i < series.getLesSeriesParGenre(nomGenre).size() ; i++){
             // IMAGE DE LA SERIE
             imageSerie = new ImageView(this);
-            imageSerie.setImageResource(R.drawable.jojopart4tome);
+            int res = getResources().getIdentifier(series.getLesSeriesParGenre(nomGenre).get(i).getCouverture().toString(),"drawable",getPackageName());
+            imageSerie.setImageResource(res);
             imageSerie.setLayoutParams(new LinearLayout.LayoutParams( ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
 
             // INFORMATIONS DE LA SERIE

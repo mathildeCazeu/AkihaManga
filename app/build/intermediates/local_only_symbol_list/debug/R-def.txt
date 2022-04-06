@@ -39,6 +39,7 @@ drawable logo_resized
 drawable logo_romance
 drawable logo_sport
 drawable lovelycomplextome1
+drawable lovelycomplextome2
 drawable mashup
 drawable mhatome1
 drawable momoxshoplogo
@@ -104,6 +105,7 @@ id ll_main
 id ll_pageInformation
 id ll_premiereLigneLabel
 id ll_premiereLignePicto
+id map
 id mv_logo
 id sw_gps
 id sw_locationsupdates
